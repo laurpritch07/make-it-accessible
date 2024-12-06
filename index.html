@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!--a viewport declaration which does not disable zooming-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--a non-blocking base 64-encoded font resource-->
+    <link rel="stylesheet" href="fonts.css" media="none" onload="if(media!='all')media='all'">
+    <noscript>
+        <link rel="stylesheet" href="fonts.css">
+    </noscript>
+
+    <!--a non-blocking stylesheet-->
+    <link rel="stylesheet" href="main.css" media="none" onload="if(media!='all')media='all'">
+    <noscript>
+        <link rel="stylesheet" href="main.css">
+    </noscript>
+
+    <!--Icon link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Make it accessible.</title>
+</head>
+
+<body>
+    <!--Skip link for keyboard users-->
+    <a href="#main">skip to main content</a>
+
+    <!--logo/page navigation goes here-->
+
+    <header class="header__content">
+        <a href="index.html" class="logo">
+            Make it <u>accessible</u>.
+        </a>
+
+        <nav>
+            <ul class="nav__list">
+                <li><a href="references.html" class="nav__link">References</a></li>
+                <li><a href="about.html" class="nav__link">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <h1>Make it accessible.</h1> -->
+        <h1>A beginners guide to designing accessibly.</h1>
+        </div>
+
+        <div class="accordion-subsection">
+                                
+            <div class="row">
+                
+                <div class="column left-intro">
+                    <hr>
+                    <div class="navbar">
+                        <a href="#color"><image src="/capstone/img/Color-fill.png" class="navbar-icon"
+                            alt=""></image>Color and Contrast</a>
+                        <a href="#typography"><image src="/capstone/img/Typography-fill.png" class="navbar-icon"
+                            alt=""></image>Typography and Language</a>
+                        <a href="#layout"><image src="/capstone/img/Layout-fill.png" class="navbar-icon"
+                            alt=""></image>Layout and Hierarchy</a>
+                        <a href="#media"><image src="/capstone/img/Media-fill.png" class="navbar-icon"
+                            alt=""></image>Interactions and Media</a>
+                    </div> 
+                   
+                </div>
+                <div class="column right-intro">
+                    <hr>
+                    <div class>
+                        <p>What is accessible design? Why is it so important? Who does it effect? How can I make my work accessible to the
+                            greatest number of people?
+                        </p>
+                    
+                        <p>
+                            <b>Make it accessible</b> is a digital hub of accessible design guidelines, best practices, and resources
+                            curated by a fellow designer who set out to answer these questions and make her findings accessible to others.
+                        </p>
+                    
+                        <p>
+                            Explore the research and discover tools that can help you make your work accessible.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <section class="color-block">
+            <div id="accordionSection" class="accordion-section">
+                <div id="color" class="accordion-header">
+                    <h2 class="accordian-name"> Color and Contrast</h2>
+                    <image src="/capstone/img/Color-fill.png" class="principle-icon"
+                        alt="Blue square centered over a gold square"></image>
+                </div>
+                <div id="accordionGroup" class="accordion">
+                    
+                    
+                <!-- Start of 'Use of color' -->
+                    <h3>
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect1"
+                            id="accordion1id">
+                            <span class="accordion-title">
+                                Use of Color
+                                <span class="accordion-icon"></span>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="sect1" role="region" aria-labelledby="accordion1id" class="accordion-panel" hidden="">
+                        <div>
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">What</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Color is not used as the only visual means of conveying
+                                        information, indicating
+                                        an action, prompting a response, or distinguishing a visual element.
+                                    </p>
+                                    <a class="button" href="https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">WCAG
+                                        SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+        
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">Why</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">They why goes here
+                                    </p>
+                                </div>
+                            </div>
+        
+                            <div class="accordion-subsection">
+        
+                                <div class="row">
+        
+                                    <div class="column left">
+                                        <hr>
+        
+                                        <h4 class="accordion-subtitle">How</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li><b>Don’t convey meaning through color alone.</b> Incorporate alternate
+                                                means of communication—use labels, texture, shapes, and patterns—to
+                                                prevent confusion among people with color blindness. <a class=""
+                                                    href="https://www.levelaccess.com/blog/color-blindness-accessibility-what-designers-need-to-know/">
+                                                    Source</a></li>
+                                            <li><b>Avoid using the same color to mean different things.</b> Use color
+                                                consistently throughout your interface, especially when you use it to
+                                                help communicate information like status or interactivity. <a class=""
+                                                    href="https://developer.apple.com/design/human-interface-guidelines/color#Best-practices">
+                                                    Source</a></li>
+                                            <li><b>Avoid certain color combinations.</b> There are certain color
+                                                combinations that especially bad for users who are color blind.
+                                                Red/green color blindness is the most common, so avoid green on red or
+                                                red on green. (Think especially about avoiding using red and green for
+                                                “bad” and “good” indicators).<a class=""
+                                                    href="http://web-accessibility.carnegiemuseums.org/design/color/">
+                                                    Source</a></li>
+                                            <li><b>Use texture and patterns.</b> When you need to emphasize certain
+                                                objects, it’s a good idea to incorporate textures and/or patterns. This
+                                                is especially helpful for charts and graphs where color is often used to
+                                                differentiate between items. Adding textures and patterns like checkers,
+                                                lines, and dots can help make each item stand out as unique and easily
+                                                identifiable. <a class=""
+                                                    href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/">
+                                                    Source</a>
+        
+                                            </li>
+                                            <li><b>Test it.</b> Some users have difficulty perceiving color, testing
+                                                your color combinations by using a tool like <a class="Link"
+                                                    href="https://www.whocanuse.com/?bg=33997c&fg=ffffff&fs=16&fw=">Whocanuse.com</a>
+                                                will help you understand how color contrast can affect people with different
+                                                visual impairments.
+                                            </li>
+                                        </ul>
+                                    </div>
+        
+                                    <div class="row">
+                                        <div class="column left">
+                                            <hr>
+                                            <h4 class="accordion-subtitle">Learn more</h4>
+                                        </div>
+                                        <div class="column right">
+                                            <hr>
+                                            <ul class="accordion-list">
+                                                <li>
+                                                    List Item
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- End of Color Use -->
+
+                  <!-- Start of 'Contrast Min' -->
+                  <h3>
+                    <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect2"
+                            id="accordion2id">
+                        <span class="accordion-title">
+                            Contrast Minimum
+                            <span class="accordion-icon"></span>
+                        </span>
+                    </button>
+                </h3>
+                <div id="sect2" role="region" aria-labelledby="accordion2id" class="accordion-panel" hidden="">
+                    <div>
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">What</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">The visual presentation of text and images of text has a contrast
+                                    ratio of at least 4.5:1, except for the following:
+
+                                    Large Text
+                                    Large-scale text and images of large-scale text have a contrast ratio of at least
+                                    3:1;
+
+                                    Incidental
+                                    Text or images of text that are part of an inactive user interface component, that
+                                    are pure decoration, that are not visible to anyone, or that are part of a picture
+                                    that contains significant other visual content, have no contrast requirement.
+
+                                    Logotypes
+                                    Text that is part of a logo or brand name has no contrast requirement. (Level AA).
+                                </p>
+                                <a class="button" href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">WCAG
+                                    SC 1.4.3 <i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">Why</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">People with low vision often have difficulty reading text that
+                                    does not contrast with its background. This can be exacerbated if the person has a
+                                    color vision deficiency that lowers the contrast even further. Providing a minimum
+                                    luminance contrast ratio between the text and its background can make the text more
+                                    readable even if the person does not see the full range of colors. It also works for
+                                    the rare individuals who see no color. (WCAG, )
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="accordion-subsection">
+    
+                            <div class="row">
+    
+                                <div class="column left">
+                                    <hr>
+    
+                                    <h4 class="accordion-subtitle">How</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <ul class="accordion-list">
+                                        <li><b>Aim for a middle ground.</b> The issue with color contrast can be complicated
+                                            as some people with cognitive disabilities are sensitive to light and could
+                                            experience eye fatigue or feel distracted when looking at high contrast text and
+                                            images, such as black text on a white background at a 21:1 contrast ratio. A
+                                            good middle ground is to aim for a 7:1 contrast ratio, the AAA rating for WCAG.
+                                            <a class=""
+                                                href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
+                                                Source</a></li>
+                                        <li><b>Use contrast properly.</b> You can make your website’s components stand out
+                                            to all users by properly using color contrast in your design. The trick is to
+                                            use brightness and tone, in addition to hues. If you contrast by color, but
+                                            maintain the same brightness, elements (might) look blended or muddled to those
+                                            with color deficiencies.  <a class=""
+                                                href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/#:~:text=You%20can%20make%20your%20website%27s,to%20those%20with%20color%20deficiencies.">
+                                                Source</a></li>
+                                        <li><b>Test it. </b>Use a non-destructive <a
+                                            href="https://www.figma.com/community/plugin/1105916617805028875/grayscale">FIGMA
+                                            plugin</a> to convert your designs to grayscale to see if any design elements
+                                        become indistiguishable or difficult to read.</li>
+                                    </ul>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="column left">
+                                        <hr>
+                                        <h4 class="accordion-subtitle">Learn more</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li>
+                                                List Item
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- End of Contrast Min -->
+
+            <!-- Start of 'Non-Text' -->
+                  <h3>
+                    <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect3"
+                            id="accordion3id">
+                        <span class="accordion-title">
+                            Non-text Contrast
+                            <span class="accordion-icon"></span>
+                        </span>
+                    </button>
+                </h3>
+                <div id="sect3" role="region" aria-labelledby="accordion3id" class="accordion-panel" hidden="">
+                    <div>
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">What</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p"> The visual presentation of the following have a contrast ratio of at least 3:1
+                                    against adjacent color(s):
+
+                                    User Interface Components
+                                    Visual information required to identify user interface components and states, except
+                                    for inactive components or where the appearance of the component is determined by
+                                    the user agent and not modified by the author;
+
+                                    Graphical Objects
+                                    Parts of graphics required to understand the content, except when a particular
+                                    presentation of graphics is essential to the information being conveyed. (Level AA)
+                                </p>
+                                <a class="button" href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">WCAG
+                                    SC 1.4.11 <i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">Why</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">If a graphic is needed to understand the content or
+                                    functionality of the webpage then it should be perceivable by people with low vision
+                                    or other impairments without the need for contrast-enhancing assistive technology. (Source)
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="accordion-subsection">
+    
+                            <div class="row">
+    
+                                <div class="column left">
+                                    <hr>
+    
+                                    <h4 class="accordion-subtitle">How</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <ul class="accordion-list">
+                                        <li><b>Title.</b> best practice
+                                            <a class=""
+                                                href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
+                                                Source</a></li>
+                                        <li><b>Use contrast properly.</b> You can make your website’s components stand out
+                                            to all users by properly using color contrast in your design. The trick is to
+                                            use brightness and tone, in addition to hues. If you contrast by color, but
+                                            maintain the same brightness, elements (might) look blended or muddled to those
+                                            with color deficiencies.  <a class=""
+                                                href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/#:~:text=You%20can%20make%20your%20website%27s,to%20those%20with%20color%20deficiencies.">
+                                                Source</a></li>
+                                        <li><b>Test it. </b>Use a non-destructive <a
+                                            href="https://www.figma.com/community/plugin/1105916617805028875/grayscale">FIGMA
+                                            plugin</a> to convert your designs to grayscale to see if any design elements
+                                        become indistiguishable or difficult to read.</li>
+                                    </ul>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="column left">
+                                        <hr>
+                                        <h4 class="accordion-subtitle">Learn more</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li>
+                                                List Item
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                
+
+</section>
+        <footer>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            <p class="small">A project by Lauren Pritchard &copy;2024</p>
+        </footer>
+
+
+    </main>
+
+    <!--a non-blocking javascript resource-->
+    <script src="main.js">
+
+
+    </script>
+</body>
+
+</html>
