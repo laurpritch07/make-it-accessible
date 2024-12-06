@@ -762,7 +762,7 @@ hr {
 .navbar {
   width: 100%;
   overflow: auto;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
   
   /* border-bottom: 1px solid var(--black); */
 }
@@ -771,12 +771,10 @@ hr {
 .navbar a {
   float: left;
   text-align: left;
-  padding-right: 2rem;
-  padding-top: 12px;
+  padding-top: 2rem;
   color:var(--black);
   text-decoration: none;
   vertical-align: middle;
-  font-size: .85rem;
 }
 
 /* Navbar links on mouse-over */
@@ -793,10 +791,14 @@ hr {
   padding-right: .25rem;
 }
 
+.row .intro {
+    padding-top: 2rem;
+}
 /* Current/active navbar link
 .active {
   background-color: #04AA6D;
 } */
+
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 600px) {
