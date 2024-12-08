@@ -44,72 +44,410 @@
     </header>
 
     <!-- <h1>Make it accessible.</h1> -->
-        <h1>A beginners guide to designing accessibly.</h1>
-        </div>
+    <h1>A beginners guide to designing accessibly.</h1>
+    </div>
 
-        <div class="accordion-subsection">
-                                
-            <div class="row intro">
-                <div class="column left-intro">
-                
-                    <div class="navbar">
-                        <a href="#color"><image src="img/Color-fill.png" class="navbar-icon"
-                            alt=""></image>Color and Contrast</a>
-                        <a href="#typography"><image src="img/Typography-fill.png" class="navbar-icon"
-                            alt=""></image>Typography and Language</a>
-                        <a href="#layout"><image src="img/Layout-fill.png" class="navbar-icon"
-                            alt=""></image>Layout and Hierarchy</a>
-                        <a href="#media"><image src="img/Media-fill.png" class="navbar-icon"
-                            alt=""></image>Interactions and Media</a>
-                    </div> 
-                   
+    <div class="accordion-subsection">
+
+        <div class="row intro">
+            <div class="column left-intro">
+
+                <div class="navbar">
+                    <a href="#color">
+                        <image src="img/Color-fill.png" class="navbar-icon" alt=""></image>Color and Contrast
+                    </a>
+                    <a href="#typography">
+                        <image src="img/Typography-fill.png" class="navbar-icon" alt=""></image>Typography and Language
+                    </a>
+                    <a href="#layout">
+                        <image src="img/Layout-fill.png" class="navbar-icon" alt=""></image>Layout and Hierarchy
+                    </a>
+                    <a href="#media">
+                        <image src="img/Media-fill.png" class="navbar-icon" alt=""></image>Interactions and Media
+                    </a>
                 </div>
-
-                <div class="column right-intro">
-                   
-                    <div class>
-                        <p>What is accessible design? Why is it so important? Who does it affect? How can I make my work accessible to the
-                            greatest number of people?
-                        </p>
-                    
-                        <p>
-                            <b>Make it <u>accessible</u></b> is a digital hub of accessible design guidelines, best practices, and resources
-                            curated by a fellow designer who set out to answer these questions and make their findings available to others.
-                        </p>
-                    
-                        <p>
-                            Explore the research and discover tools that can help you create more accessible design work.
-                        </p>
-                    </div>
-                </div>
-
-
 
             </div>
 
+            <div class="column right-intro">
+
+                <div>
+                    <p class="p-intro">What is accessible design? Why is it so important? Who does it affect? How can I
+                        make my work accessible to the
+                        greatest number of people?
+                    </p>
+
+                    <p>
+                        <b>Make it <u>accessible</u></b> is a digital hub of design guidelines, best practices, and
+                        resources aimed at helping designers create more accessible work.
+                    </p>
+
+                    <p>
+                        Explore the research and discover tools that can help you create more accessible design work.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <section class="color-block">
+        <!-- Start of 'Section 1' -->
+        <div id="accordionSection" class="accordion-section">
+            <div id="color" class="accordion-header">
+                <h2 class="accordian-name"> Color and Contrast</h2>
+                <image src="img/Color-fill.png" class="principle-icon" alt=""></image>
+            </div>
+            <div id="accordionGroup" class="accordion">
+        
+        
+                <!-- Start of 'Use of color' -->
+                <h3>
+                    <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect1-1"
+                        id="accordion1-1id">
+                        <span class="accordion-title">
+                            Use of Color
+                            <span class="accordion-icon"></span>
+                        </span>
+                    </button>
+                </h3>
+                <div id="sect1-1" role="region" aria-labelledby="accordion1-1id" class="accordion-panel" hidden="">
+                    <div>
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">What</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">Color is not used as the only visual means of conveying
+                                    information, indicating
+                                    an action, prompting a response, or distinguishing a visual element.
+                                </p>
+                                <a class="button" href="https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">WCAG
+                                    SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">Why</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">They why goes here
+                                </p>
+                            </div>
+                        </div>
+        
+                        <div class="accordion-subsection">
+        
+                            <div class="row">
+        
+                                <div class="column left">
+                                    <hr>
+        
+                                    <h4 class="accordion-subtitle">How</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <ul class="accordion-list">
+                                        <li><b>Don’t convey meaning through color alone.</b> Incorporate alternate
+                                            means of communication—use labels, texture, shapes, and patterns—to
+                                            prevent confusion among people with color blindness. <a class=""
+                                                href="https://www.levelaccess.com/blog/color-blindness-accessibility-what-designers-need-to-know/">
+                                                Source</a></li>
+                                        <li><b>Avoid using the same color to mean different things.</b> Use color
+                                            consistently throughout your interface, especially when you use it to
+                                            help communicate information like status or interactivity. <a class=""
+                                                href="https://developer.apple.com/design/human-interface-guidelines/color#Best-practices">
+                                                Source</a></li>
+                                        <li><b>Avoid certain color combinations.</b> There are certain color
+                                            combinations that especially bad for users who are color blind.
+                                            Red/green color blindness is the most common, so avoid green on red or
+                                            red on green. (Think especially about avoiding using red and green for
+                                            “bad” and “good” indicators).<a class=""
+                                                href="http://web-accessibility.carnegiemuseums.org/design/color/">
+                                                Source</a></li>
+                                        <li><b>Use texture and patterns.</b> When you need to emphasize certain
+                                            objects, it’s a good idea to incorporate textures and/or patterns. This
+                                            is especially helpful for charts and graphs where color is often used to
+                                            differentiate between items. Adding textures and patterns like checkers,
+                                            lines, and dots can help make each item stand out as unique and easily
+                                            identifiable. <a class=""
+                                                href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/">
+                                                Source</a>
+        
+                                        </li>
+                                        <li><b>Test it.</b> Some users have difficulty perceiving color, testing
+                                            your color combinations by using a tool like <a class="Link"
+                                                href="https://www.whocanuse.com/?bg=33997c&fg=ffffff&fs=16&fw=">Whocanuse.com</a>
+                                            will help you understand how color contrast can affect people with different
+                                            visual impairments.
+                                        </li>
+                                    </ul>
+                                </div>
+        
+                                <div class="row">
+                                    <div class="column left">
+                                        <hr>
+                                        <h4 class="accordion-subtitle">Learn more</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li>
+                                                List Item
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Color Use -->
+        
+                <!-- Start of 'Contrast Min' -->
+                <h3>
+                    <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect1-2"
+                        id="accordion1-2id">
+                        <span class="accordion-title">
+                            Contrast Minimum
+                            <span class="accordion-icon"></span>
+                        </span>
+                    </button>
+                </h3>
+                <div id="sect1-2" role="region" aria-labelledby="accordion1-2id" class="accordion-panel" hidden="">
+                    <div>
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">What</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">The visual presentation of text and images of text has a contrast
+                                    ratio of at least 4.5:1, except for the following:
+        
+                                    Large Text
+                                    Large-scale text and images of large-scale text have a contrast ratio of at least
+                                    3:1;
+        
+                                    Incidental
+                                    Text or images of text that are part of an inactive user interface component, that
+                                    are pure decoration, that are not visible to anyone, or that are part of a picture
+                                    that contains significant other visual content, have no contrast requirement.
+        
+                                    Logotypes
+                                    Text that is part of a logo or brand name has no contrast requirement. (Level AA).
+                                </p>
+                                <a class="button" href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">WCAG
+                                    SC 1.4.3 <i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">Why</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">People with low vision often have difficulty reading text that
+                                    does not contrast with its background. This can be exacerbated if the person has a
+                                    color vision deficiency that lowers the contrast even further. Providing a minimum
+                                    luminance contrast ratio between the text and its background can make the text more
+                                    readable even if the person does not see the full range of colors. It also works for
+                                    the rare individuals who see no color. (WCAG, )
+                                </p>
+                            </div>
+                        </div>
+        
+                        <div class="accordion-subsection">
+        
+                            <div class="row">
+        
+                                <div class="column left">
+                                    <hr>
+        
+                                    <h4 class="accordion-subtitle">How</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <ul class="accordion-list">
+                                        <li><b>Aim for a middle ground.</b> The issue with color contrast can be
+                                            complicated
+                                            as some people with cognitive disabilities are sensitive to light and could
+                                            experience eye fatigue or feel distracted when looking at high contrast text
+                                            and
+                                            images, such as black text on a white background at a 21:1 contrast ratio. A
+                                            good middle ground is to aim for a 7:1 contrast ratio, the AAA rating for
+                                            WCAG.
+                                            <a class=""
+                                                href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
+                                                Source</a>
+                                        </li>
+                                        <li><b>Use contrast properly.</b> You can make your website’s components stand
+                                            out
+                                            to all users by properly using color contrast in your design. The trick is
+                                            to
+                                            use brightness and tone, in addition to hues. If you contrast by color, but
+                                            maintain the same brightness, elements (might) look blended or muddled to
+                                            those
+                                            with color deficiencies.  <a class=""
+                                                href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/#:~:text=You%20can%20make%20your%20website%27s,to%20those%20with%20color%20deficiencies.">
+                                                Source</a></li>
+                                        <li><b>Test it. </b>Use a non-destructive <a
+                                                href="https://www.figma.com/community/plugin/1105916617805028875/grayscale">FIGMA
+                                                plugin</a> to convert your designs to grayscale to see if any design
+                                            elements
+                                            become indistiguishable or difficult to read.</li>
+                                    </ul>
+                                </div>
+        
+                                <div class="row">
+                                    <div class="column left">
+                                        <hr>
+                                        <h4 class="accordion-subtitle">Learn more</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li>
+                                                List Item
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Contrast Min -->
+        
+                <!-- Start of 'Non-Text' -->
+                <h3>
+                    <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect1-3"
+                        id="accordion1-3id">
+                        <span class="accordion-title">
+                            Non-text Contrast
+                            <span class="accordion-icon"></span>
+                        </span>
+                    </button>
+                </h3>
+                <div id="sect1-3" role="region" aria-labelledby="accordion1-3id" class="accordion-panel" hidden="">
+                    <div>
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">What</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p"> The visual presentation of the following have a contrast ratio of at
+                                    least 3:1
+                                    against adjacent color(s):
+        
+                                    User Interface Components
+                                    Visual information required to identify user interface components and states, except
+                                    for inactive components or where the appearance of the component is determined by
+                                    the user agent and not modified by the author;
+        
+                                    Graphical Objects
+                                    Parts of graphics required to understand the content, except when a particular
+                                    presentation of graphics is essential to the information being conveyed. (Level AA)
+                                </p>
+                                <a class="button" href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">WCAG
+                                    SC 1.4.11 <i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">Why</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">If a graphic is needed to understand the content or
+                                    functionality of the webpage then it should be perceivable by people with low vision
+                                    or other impairments without the need for contrast-enhancing assistive technology.
+                                    (Source)
+                                </p>
+                            </div>
+                        </div>
+        
+                        <div class="accordion-subsection">
+        
+                            <div class="row">
+        
+                                <div class="column left">
+                                    <hr>
+        
+                                    <h4 class="accordion-subtitle">How</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <ul class="accordion-list">
+                                        <li><b>Title.</b> best practice
+                                            <a class=""
+                                                href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
+                                                Source</a>
+                                        </li>
+        
+                                    </ul>
+                                </div>
+        
+                                <div class="row">
+                                    <div class="column left">
+                                        <hr>
+                                        <h4 class="accordion-subtitle">Learn more</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li>
+                                                List Item
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- End of Section -->
+            </div>
         </div>
 
-        <section class="color-block">
+
+        <!-- Typography Starts Here Section 2-->
+        <!-- Start of 'Accordion' -->
             <div id="accordionSection" class="accordion-section">
-                <div id="color" class="accordion-header">
-                    <h2 class="accordian-name"> Color and Contrast</h2>
-                    <image src="img/Color-fill.png" class="principle-icon"
-                        alt=""></image>
+                <div id="typography" class="accordion-header">
+                    <h2 class="accordian-name">Typography and Language</h2>
+                    <image src="img/Typography-fill.png" class="principle-icon" alt=""></image>
                 </div>
                 <div id="accordionGroup" class="accordion">
-                    
-                    
-                <!-- Start of 'Use of color' -->
+            
+            
+                    <!-- Start of 'Typefaces' -->
                     <h3>
-                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect1"
-                            id="accordion1id">
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect2-1"
+                            id="accordion2-1id">
                             <span class="accordion-title">
-                                Use of Color
+                               Typefaces
                                 <span class="accordion-icon"></span>
                             </span>
                         </button>
                     </h3>
-                    <div id="sect1" role="region" aria-labelledby="accordion1id" class="accordion-panel" hidden="">
+                    <div id="sect2-1" role="region" aria-labelledby="accordion2-1id" class="accordion-panel" hidden="">
                         <div>
                             <div class="row">
                                 <div class="column left">
@@ -126,7 +464,7 @@
                                         SC 1.4.1 <i class='bx bx-link-external'></i></a>
                                 </div>
                             </div>
-        
+            
                             <div class="row">
                                 <div class="column left">
                                     <hr>
@@ -138,14 +476,14 @@
                                     </p>
                                 </div>
                             </div>
-        
+            
                             <div class="accordion-subsection">
-        
+            
                                 <div class="row">
-        
+            
                                     <div class="column left">
                                         <hr>
-        
+            
                                         <h4 class="accordion-subtitle">How</h4>
                                     </div>
                                     <div class="column right">
@@ -176,7 +514,7 @@
                                                 identifiable. <a class=""
                                                     href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/">
                                                     Source</a>
-        
+            
                                             </li>
                                             <li><b>Test it.</b> Some users have difficulty perceiving color, testing
                                                 your color combinations by using a tool like <a class="Link"
@@ -186,7 +524,7 @@
                                             </li>
                                         </ul>
                                     </div>
-        
+            
                                     <div class="row">
                                         <div class="column left">
                                             <hr>
@@ -205,19 +543,819 @@
                             </div>
                         </div>
                     </div>
-                <!-- End of Color Use -->
+                    <!-- End of Typefaces -->
+            
+                    <!-- Start of 'Text Size' -->
+                    <h3>
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect2-2"
+                            id="accordion2-2id">
+                            <span class="accordion-title">
+                                Text Size
+                                <span class="accordion-icon"></span>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="sect2-2" role="region" aria-labelledby="accordion2-2id" class="accordion-panel" hidden="">
+                        <div>
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">What</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">The visual presentation of text and images of text has a contrast
+                                        ratio of at least 4.5:1, except for the following:
+            
+                                        Large Text
+                                        Large-scale text and images of large-scale text have a contrast ratio of at least
+                                        3:1;
+            
+                                        Incidental
+                                        Text or images of text that are part of an inactive user interface component, that
+                                        are pure decoration, that are not visible to anyone, or that are part of a picture
+                                        that contains significant other visual content, have no contrast requirement.
+            
+                                        Logotypes
+                                        Text that is part of a logo or brand name has no contrast requirement. (Level AA).
+                                    </p>
+                                    <a class="button" href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">WCAG
+                                        SC 1.4.3 <i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+            
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">Why</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">People with low vision often have difficulty reading text that
+                                        does not contrast with its background. This can be exacerbated if the person has a
+                                        color vision deficiency that lowers the contrast even further. Providing a minimum
+                                        luminance contrast ratio between the text and its background can make the text more
+                                        readable even if the person does not see the full range of colors. It also works for
+                                        the rare individuals who see no color. (WCAG, )
+                                    </p>
+                                </div>
+                            </div>
+            
+                            <div class="accordion-subsection">
+            
+                                <div class="row">
+            
+                                    <div class="column left">
+                                        <hr>
+            
+                                        <h4 class="accordion-subtitle">How</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li><b>Aim for a middle ground.</b> The issue with color contrast can be
+                                                complicated
+                                                as some people with cognitive disabilities are sensitive to light and could
+                                                experience eye fatigue or feel distracted when looking at high contrast text
+                                                and
+                                                images, such as black text on a white background at a 21:1 contrast ratio. A
+                                                good middle ground is to aim for a 7:1 contrast ratio, the AAA rating for
+                                                WCAG.
+                                                <a class=""
+                                                    href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
+                                                    Source</a>
+                                            </li>
+                                            <li><b>Use contrast properly.</b> You can make your website’s components stand
+                                                out
+                                                to all users by properly using color contrast in your design. The trick is
+                                                to
+                                                use brightness and tone, in addition to hues. If you contrast by color, but
+                                                maintain the same brightness, elements (might) look blended or muddled to
+                                                those
+                                                with color deficiencies.  <a class=""
+                                                    href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/#:~:text=You%20can%20make%20your%20website%27s,to%20those%20with%20color%20deficiencies.">
+                                                    Source</a></li>
+                                            <li><b>Test it. </b>Use a non-destructive <a
+                                                    href="https://www.figma.com/community/plugin/1105916617805028875/grayscale">FIGMA
+                                                    plugin</a> to convert your designs to grayscale to see if any design
+                                                elements
+                                                become indistiguishable or difficult to read.</li>
+                                        </ul>
+                                    </div>
+            
+                                    <div class="row">
+                                        <div class="column left">
+                                            <hr>
+                                            <h4 class="accordion-subtitle">Learn more</h4>
+                                        </div>
+                                        <div class="column right">
+                                            <hr>
+                                            <ul class="accordion-list">
+                                                <li>
+                                                    List Item
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Text Size -->
+            
+                    <!-- Start of 'Spacing' -->
+                    <h3>
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect2-3"
+                            id="accordion2-3id">
+                            <span class="accordion-title">
+                                Spacing
+                                <span class="accordion-icon"></span>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="sect2-3" role="region" aria-labelledby="accordion2-3id" class="accordion-panel" hidden="">
+                        <div>
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">What</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p"> The visual presentation of the following have a contrast ratio of at
+                                        least 3:1
+                                        against adjacent color(s):
+            
+                                        User Interface Components
+                                        Visual information required to identify user interface components and states, except
+                                        for inactive components or where the appearance of the component is determined by
+                                        the user agent and not modified by the author;
+            
+                                        Graphical Objects
+                                        Parts of graphics required to understand the content, except when a particular
+                                        presentation of graphics is essential to the information being conveyed. (Level AA)
+                                    </p>
+                                    <a class="button" href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">WCAG
+                                        SC 1.4.11 <i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+            
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">Why</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">If a graphic is needed to understand the content or
+                                        functionality of the webpage then it should be perceivable by people with low vision
+                                        or other impairments without the need for contrast-enhancing assistive technology.
+                                        (Source)
+                                    </p>
+                                </div>
+                            </div>
+            
+                            <div class="accordion-subsection">
+            
+                                <div class="row">
+            
+                                    <div class="column left">
+                                        <hr>
+            
+                                        <h4 class="accordion-subtitle">How</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li><b>Title.</b> best practice
+                                                <a class=""
+                                                    href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
+                                                    Source</a>
+                                            </li>
+            
+                                        </ul>
+                                    </div>
+            
+                                    <div class="row">
+                                        <div class="column left">
+                                            <hr>
+                                            <h4 class="accordion-subtitle">Learn more</h4>
+                                        </div>
+                                        <div class="column right">
+                                            <hr>
+                                            <ul class="accordion-list">
+                                                <li>
+                                                    List Item
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Spacing -->
 
-                  <!-- Start of 'Contrast Min' -->
-                  <h3>
-                    <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect2"
-                            id="accordion2id">
+                    <!-- Start of 'Headings and Labels' Section -->
+                    <h3>
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect2-4"
+                            id="accordion2-4id">
+                            <span class="accordion-title">
+                                Headings and Labels
+                                <span class="accordion-icon"></span>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="sect2-4" role="region" aria-labelledby="accordion2-4id" class="accordion-panel" hidden="">
+            
+                        <div>
+                            <!--Beginning of 'What' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">What</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                    <a class="button" href="">WCAG
+                                        SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+                            <!--End of 'What' -->
+            
+                            <!--Beginning of 'Why' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">Why</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                </div>
+                            </div>
+                            <!--End of 'Why' -->
+            
+            
+                            <div class="accordion-subsection">
+                                <!--Beginning of 'How' -->
+                                <div class="row">
+            
+                                    <div class="column left">
+                                        <hr>
+            
+                                        <h4 class="accordion-subtitle">How</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Test it.</b><a class="" href="">
+                                                        Source</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--End of 'How' -->
+            
+                                    <!--Beggining of 'Learn More' -->
+            
+                                    <div class="row">
+                                        <div class="column left">
+                                            <hr>
+                                            <h4 class="accordion-subtitle">Learn more</h4>
+                                        </div>
+                                        <div class="column right">
+                                            <hr>
+                                            <ul class="accordion-list">
+                                                <li>
+                                                    List Item
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--End of 'Learn More' -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of 'Headings and Labels' Section-->
+            
+                    <!-- Start of 'Non-Text Context' Section -->
+                    <h3>
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect2-5"
+                            id="accordion2-5id">
+                            <span class="accordion-title">
+                                Non-Text Content (Alt-Text)
+                                <span class="accordion-icon"></span>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="sect2-5" role="region" aria-labelledby="accordion2-5id" class="accordion-panel" hidden="">
+            
+                        <div>
+                            <!--Beginning of 'What' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">What</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                    <a class="button" href="">WCAG
+                                        SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+                            <!--End of 'What' -->
+            
+                            <!--Beginning of 'Why' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">Why</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                </div>
+                            </div>
+                            <!--End of 'Why' -->
+            
+            
+                            <div class="accordion-subsection">
+                                <!--Beginning of 'How' -->
+                                <div class="row">
+            
+                                    <div class="column left">
+                                        <hr>
+            
+                                        <h4 class="accordion-subtitle">How</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Test it.</b><a class="" href="">
+                                                        Source</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--End of 'How' -->
+            
+                                    <!--Beggining of 'Learn More' -->
+            
+                                    <div class="row">
+                                        <div class="column left">
+                                            <hr>
+                                            <h4 class="accordion-subtitle">Learn more</h4>
+                                        </div>
+                                        <div class="column right">
+                                            <hr>
+                                            <ul class="accordion-list">
+                                                <li>
+                                                    List Item
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--End of 'Learn More' -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Section -->
+            
+                    <!-- Start of 'Images of Text' Section -->
+                    <h3>
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect2-6"
+                            id="accordion2-6id">
+                            <span class="accordion-title">
+                                Images of Text
+                                <span class="accordion-icon"></span>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="sect2-6" role="region" aria-labelledby="accordion2-6id" class="accordion-panel" hidden="">
+            
+                        <div>
+                            <!--Beginning of 'What' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">What</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                    <a class="button" href="">WCAG
+                                        SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+                            <!--End of 'What' -->
+            
+                            <!--Beginning of 'Why' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">Why</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                </div>
+                            </div>
+                            <!--End of 'Why' -->
+            
+            
+                            <div class="accordion-subsection">
+                                <!--Beginning of 'How' -->
+                                <div class="row">
+            
+                                    <div class="column left">
+                                        <hr>
+            
+                                        <h4 class="accordion-subtitle">How</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Test it.</b><a class="" href="">
+                                                        Source</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--End of 'How' -->
+            
+                                    <!--Beggining of 'Learn More' -->
+            
+                                    <div class="row">
+                                        <div class="column left">
+                                            <hr>
+                                            <h4 class="accordion-subtitle">Learn more</h4>
+                                        </div>
+                                        <div class="column right">
+                                            <hr>
+                                            <ul class="accordion-list">
+                                                <li>
+                                                    List Item
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--End of 'Learn More' -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of 'Images of Text' Section -->
+            
+                    <!-- Start of 'Link Purpose' Section -->
+                    <h3>
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect2-7"
+                            id="accordion2-7id">
+                            <span class="accordion-title">
+                                Link Purpose
+                                <span class="accordion-icon"></span>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="sect2-7" role="region" aria-labelledby="accordion2-7id" class="accordion-panel" hidden="">
+            
+                        <div>
+                            <!--Beginning of 'What' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">What</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                    <a class="button" href="">WCAG
+                                        SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+                            <!--End of 'What' -->
+            
+                            <!--Beginning of 'Why' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">Why</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                </div>
+                            </div>
+                            <!--End of 'Why' -->
+            
+            
+                            <div class="accordion-subsection">
+                                <!--Beginning of 'How' -->
+                                <div class="row">
+            
+                                    <div class="column left">
+                                        <hr>
+            
+                                        <h4 class="accordion-subtitle">How</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Test it.</b><a class="" href="">
+                                                        Source</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--End of 'How' -->
+            
+                                    <!--Beggining of 'Learn More' -->
+            
+                                    <div class="row">
+                                        <div class="column left">
+                                            <hr>
+                                            <h4 class="accordion-subtitle">Learn more</h4>
+                                        </div>
+                                        <div class="column right">
+                                            <hr>
+                                            <ul class="accordion-list">
+                                                <li>
+                                                    List Item
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--End of 'Learn More' -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Section -->
+
+                    <!-- Start of 'Input Assistance' Section -->
+                    <h3>
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect2-8"
+                            id="accordion2-8id">
+                            <span class="accordion-title">
+                                Input Assistance 
+                                <span class="accordion-icon"></span>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="sect2-8" role="region" aria-labelledby="accordion2-8id" class="accordion-panel" hidden="">
+            
+                        <div>
+                            <!--Beginning of 'What' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">What</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                    <a class="button" href="">WCAG
+                                        SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+                            <!--End of 'What' -->
+            
+                            <!--Beginning of 'Why' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">Why</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                </div>
+                            </div>
+                            <!--End of 'Why' -->
+            
+            
+                            <div class="accordion-subsection">
+                                <!--Beginning of 'How' -->
+                                <div class="row">
+            
+                                    <div class="column left">
+                                        <hr>
+            
+                                        <h4 class="accordion-subtitle">How</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input</b><a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Test it.</b><a class="" href="">
+                                                        Source</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--End of 'How' -->
+            
+                                    <!--Beggining of 'Learn More' -->
+            
+                                    <div class="row">
+                                        <div class="column left">
+                                            <hr>
+                                            <h4 class="accordion-subtitle">Learn more</h4>
+                                        </div>
+                                        <div class="column right">
+                                            <hr>
+                                            <ul class="accordion-list">
+                                                <li>
+                                                    List Item
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--End of 'Learn More' -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Section -->
+
+                </div>
+            </div>
+
+
+
+
+        <!-- Layout Starts Here Section 3-->
+        <!-- Start of 'Accordion' -->
+        <div id="accordionSection" class="accordion-section">
+            <div id="layout" class="accordion-header">
+                <h2 class="accordian-name">Layout and Hierarchy</h2>
+                <image src="img/Layout-fill.png" class="principle-icon" alt=""></image>
+            </div>
+            <div id="accordionGroup" class="accordion">
+        
+        
+                <!-- Start of 'Consistent Navigation' -->
+                <h3>
+                    <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect3-1"
+                        id="accordion3-1id">
                         <span class="accordion-title">
-                            Contrast Minimum
+                            Consistent Navigation
                             <span class="accordion-icon"></span>
                         </span>
                     </button>
                 </h3>
-                <div id="sect2" role="region" aria-labelledby="accordion2id" class="accordion-panel" hidden="">
+                <div id="sect3-1" role="region" aria-labelledby="accordion3-1id" class="accordion-panel" hidden="">
+                    <div>
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">What</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">Color is not used as the only visual means of conveying
+                                    information, indicating
+                                    an action, prompting a response, or distinguishing a visual element.
+                                </p>
+                                <a class="button" href="https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">WCAG
+                                    SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">Why</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">They why goes here
+                                </p>
+                            </div>
+                        </div>
+        
+                        <div class="accordion-subsection">
+        
+                            <div class="row">
+        
+                                <div class="column left">
+                                    <hr>
+        
+                                    <h4 class="accordion-subtitle">How</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <ul class="accordion-list">
+                                        <li><b>Don’t convey meaning through color alone.</b> Incorporate alternate
+                                            means of communication—use labels, texture, shapes, and patterns—to
+                                            prevent confusion among people with color blindness. <a class=""
+                                                href="https://www.levelaccess.com/blog/color-blindness-accessibility-what-designers-need-to-know/">
+                                                Source</a></li>
+                                        <li><b>Avoid using the same color to mean different things.</b> Use color
+                                            consistently throughout your interface, especially when you use it to
+                                            help communicate information like status or interactivity. <a class=""
+                                                href="https://developer.apple.com/design/human-interface-guidelines/color#Best-practices">
+                                                Source</a></li>
+                                        <li><b>Avoid certain color combinations.</b> There are certain color
+                                            combinations that especially bad for users who are color blind.
+                                            Red/green color blindness is the most common, so avoid green on red or
+                                            red on green. (Think especially about avoiding using red and green for
+                                            “bad” and “good” indicators).<a class=""
+                                                href="http://web-accessibility.carnegiemuseums.org/design/color/">
+                                                Source</a></li>
+                                        <li><b>Use texture and patterns.</b> When you need to emphasize certain
+                                            objects, it’s a good idea to incorporate textures and/or patterns. This
+                                            is especially helpful for charts and graphs where color is often used to
+                                            differentiate between items. Adding textures and patterns like checkers,
+                                            lines, and dots can help make each item stand out as unique and easily
+                                            identifiable. <a class=""
+                                                href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/">
+                                                Source</a>
+        
+                                        </li>
+                                        <li><b>Test it.</b> Some users have difficulty perceiving color, testing
+                                            your color combinations by using a tool like <a class="Link"
+                                                href="https://www.whocanuse.com/?bg=33997c&fg=ffffff&fs=16&fw=">Whocanuse.com</a>
+                                            will help you understand how color contrast can affect people with different
+                                            visual impairments.
+                                        </li>
+                                    </ul>
+                                </div>
+        
+                                <div class="row">
+                                    <div class="column left">
+                                        <hr>
+                                        <h4 class="accordion-subtitle">Learn more</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li>
+                                                List Item
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of 'Consistent Navigation' -->
+        
+                <!-- Start of 'Sensory Characteristics' -->
+                <h3>
+                    <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect3-2"
+                        id="accordion3-2id">
+                        <span class="accordion-title">
+                            Sensory Characteristics
+                            <span class="accordion-icon"></span>
+                        </span>
+                    </button>
+                </h3>
+                <div id="sect3-2" role="region" aria-labelledby="accordion3-2id" class="accordion-panel" hidden="">
                     <div>
                         <div class="row">
                             <div class="column left">
@@ -228,16 +1366,16 @@
                                 <hr>
                                 <p class="wcag-p">The visual presentation of text and images of text has a contrast
                                     ratio of at least 4.5:1, except for the following:
-
+        
                                     Large Text
                                     Large-scale text and images of large-scale text have a contrast ratio of at least
                                     3:1;
-
+        
                                     Incidental
                                     Text or images of text that are part of an inactive user interface component, that
                                     are pure decoration, that are not visible to anyone, or that are part of a picture
                                     that contains significant other visual content, have no contrast requirement.
-
+        
                                     Logotypes
                                     Text that is part of a logo or brand name has no contrast requirement. (Level AA).
                                 </p>
@@ -245,7 +1383,7 @@
                                     SC 1.4.3 <i class='bx bx-link-external'></i></a>
                             </div>
                         </div>
-    
+        
                         <div class="row">
                             <div class="column left">
                                 <hr>
@@ -262,41 +1400,49 @@
                                 </p>
                             </div>
                         </div>
-    
+        
                         <div class="accordion-subsection">
-    
+        
                             <div class="row">
-    
+        
                                 <div class="column left">
                                     <hr>
-    
+        
                                     <h4 class="accordion-subtitle">How</h4>
                                 </div>
                                 <div class="column right">
                                     <hr>
                                     <ul class="accordion-list">
-                                        <li><b>Aim for a middle ground.</b> The issue with color contrast can be complicated
+                                        <li><b>Aim for a middle ground.</b> The issue with color contrast can be
+                                            complicated
                                             as some people with cognitive disabilities are sensitive to light and could
-                                            experience eye fatigue or feel distracted when looking at high contrast text and
+                                            experience eye fatigue or feel distracted when looking at high contrast text
+                                            and
                                             images, such as black text on a white background at a 21:1 contrast ratio. A
-                                            good middle ground is to aim for a 7:1 contrast ratio, the AAA rating for WCAG.
+                                            good middle ground is to aim for a 7:1 contrast ratio, the AAA rating for
+                                            WCAG.
                                             <a class=""
                                                 href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
-                                                Source</a></li>
-                                        <li><b>Use contrast properly.</b> You can make your website’s components stand out
-                                            to all users by properly using color contrast in your design. The trick is to
+                                                Source</a>
+                                        </li>
+                                        <li><b>Use contrast properly.</b> You can make your website’s components stand
+                                            out
+                                            to all users by properly using color contrast in your design. The trick is
+                                            to
                                             use brightness and tone, in addition to hues. If you contrast by color, but
-                                            maintain the same brightness, elements (might) look blended or muddled to those
+                                            maintain the same brightness, elements (might) look blended or muddled to
+                                            those
                                             with color deficiencies.  <a class=""
                                                 href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/#:~:text=You%20can%20make%20your%20website%27s,to%20those%20with%20color%20deficiencies.">
                                                 Source</a></li>
                                         <li><b>Test it. </b>Use a non-destructive <a
-                                            href="https://www.figma.com/community/plugin/1105916617805028875/grayscale">FIGMA
-                                            plugin</a> to convert your designs to grayscale to see if any design elements
-                                        become indistiguishable or difficult to read.</li>
+                                                href="https://www.figma.com/community/plugin/1105916617805028875/grayscale">FIGMA
+                                                plugin</a> to convert your designs to grayscale to see if any design
+                                            elements
+                                            become indistiguishable or difficult to read.</li>
                                     </ul>
                                 </div>
-    
+        
                                 <div class="row">
                                     <div class="column left">
                                         <hr>
@@ -315,19 +1461,19 @@
                         </div>
                     </div>
                 </div>
-            <!-- End of Contrast Min -->
-
-            <!-- Start of 'Non-Text' -->
-                  <h3>
-                    <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect3"
-                            id="accordion3id">
+                <!-- End of 'Sensory Characteristics'-->
+        
+                <!-- Start of 'Meaningful Sequence' -->
+                <h3>
+                    <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect3-3"
+                        id="accordion3-3id">
                         <span class="accordion-title">
-                            Non-text Contrast
+                            Meaningful Sequence
                             <span class="accordion-icon"></span>
                         </span>
                     </button>
                 </h3>
-                <div id="sect3" role="region" aria-labelledby="accordion3id" class="accordion-panel" hidden="">
+                <div id="sect3-3" role="region" aria-labelledby="accordion3-3id" class="accordion-panel" hidden="">
                     <div>
                         <div class="row">
                             <div class="column left">
@@ -336,14 +1482,15 @@
                             </div>
                             <div class="column right">
                                 <hr>
-                                <p class="wcag-p"> The visual presentation of the following have a contrast ratio of at least 3:1
+                                <p class="wcag-p"> The visual presentation of the following have a contrast ratio of at
+                                    least 3:1
                                     against adjacent color(s):
-
+        
                                     User Interface Components
                                     Visual information required to identify user interface components and states, except
                                     for inactive components or where the appearance of the component is determined by
                                     the user agent and not modified by the author;
-
+        
                                     Graphical Objects
                                     Parts of graphics required to understand the content, except when a particular
                                     presentation of graphics is essential to the information being conveyed. (Level AA)
@@ -352,7 +1499,7 @@
                                     SC 1.4.11 <i class='bx bx-link-external'></i></a>
                             </div>
                         </div>
-    
+        
                         <div class="row">
                             <div class="column left">
                                 <hr>
@@ -362,18 +1509,19 @@
                                 <hr>
                                 <p class="wcag-p">If a graphic is needed to understand the content or
                                     functionality of the webpage then it should be perceivable by people with low vision
-                                    or other impairments without the need for contrast-enhancing assistive technology. (Source)
+                                    or other impairments without the need for contrast-enhancing assistive technology.
+                                    (Source)
                                 </p>
                             </div>
                         </div>
-    
+        
                         <div class="accordion-subsection">
-    
+        
                             <div class="row">
-    
+        
                                 <div class="column left">
                                     <hr>
-    
+        
                                     <h4 class="accordion-subtitle">How</h4>
                                 </div>
                                 <div class="column right">
@@ -382,11 +1530,12 @@
                                         <li><b>Title.</b> best practice
                                             <a class=""
                                                 href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
-                                                Source</a></li>
-                                       
+                                                Source</a>
+                                        </li>
+        
                                     </ul>
                                 </div>
-    
+        
                                 <div class="row">
                                     <div class="column left">
                                         <hr>
@@ -405,15 +1554,728 @@
                         </div>
                     </div>
                 </div>
-                </div>
-                </div>
-                
+                <!-- End of Meaningful Sequence -->
 
-</section>
-                <footer>
-            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-            <p class="small">A project by Lauren Pritchard &copy;2024</p>
-            <!-- <div>
+                <!-- Start of 'Orientation' -->
+                <h3>
+                    <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect3-4"
+                        id="accordion3-4id">
+                        <span class="accordion-title">
+                            Orientation
+                            <span class="accordion-icon"></span>
+                        </span>
+                    </button>
+                </h3>
+                <div id="sect3-4" role="region" aria-labelledby="accordion3-4id" class="accordion-panel" hidden="">
+        
+                    <div>
+                        <!--Beginning of 'What' -->
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">What</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">Input
+                                </p>
+                                <a class="button" href="">WCAG
+                                    SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        <!--End of 'What' -->
+        
+                        <!--Beginning of 'Why' -->
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">Why</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">Input
+                                </p>
+                            </div>
+                        </div>
+                        <!--End of 'Why' -->
+        
+        
+                        <div class="accordion-subsection">
+                            <!--Beginning of 'How' -->
+                            <div class="row">
+        
+                                <div class="column left">
+                                    <hr>
+        
+                                    <h4 class="accordion-subtitle">How</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <ul class="accordion-list">
+                                        <li><b>Input</b><a class="" href="">
+                                                    Source</a></li>
+                                        <li><b>Input</b><a class="" href="">
+                                                    Source</a></li>
+                                        <li><b>Input</b><a class="" href="">
+                                                    Source</a></li>
+                                        <li><b>Input</b><a class="" href="">
+                                                    Source</a></li>
+                                        <li><b>Test it.</b><a class="" href="">
+                                                    Source</a></li>
+                                    </ul>
+                                </div>
+                                <!--End of 'How' -->
+        
+                                <!--Beggining of 'Learn More' -->
+        
+                                <div class="row">
+                                    <div class="column left">
+                                        <hr>
+                                        <h4 class="accordion-subtitle">Learn more</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li>
+                                                List Item
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--End of 'Learn More' -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of 'Orientation' Section-->
+        
+                <!-- Start of 'Resize Text' Section -->
+                <h3>
+                    <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect3-5"
+                        id="accordion3-5id">
+                        <span class="accordion-title">
+                            Resize Text
+                            <span class="accordion-icon"></span>
+                        </span>
+                    </button>
+                </h3>
+                <div id="sect3-5" role="region" aria-labelledby="accordion3-5id" class="accordion-panel" hidden="">
+        
+                    <div>
+                        <!--Beginning of 'What' -->
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">What</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">Input
+                                </p>
+                                <a class="button" href="">WCAG
+                                    SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        <!--End of 'What' -->
+        
+                        <!--Beginning of 'Why' -->
+                        <div class="row">
+                            <div class="column left">
+                                <hr>
+                                <h4 class="accordion-subtitle">Why</h4>
+                            </div>
+                            <div class="column right">
+                                <hr>
+                                <p class="wcag-p">Input
+                                </p>
+                            </div>
+                        </div>
+                        <!--End of 'Why' -->
+        
+        
+                        <div class="accordion-subsection">
+                            <!--Beginning of 'How' -->
+                            <div class="row">
+        
+                                <div class="column left">
+                                    <hr>
+        
+                                    <h4 class="accordion-subtitle">How</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <ul class="accordion-list">
+                                        <li><b>Input</b><a class="" href="">
+                                                    Source</a></li>
+                                        <li><b>Input</b><a class="" href="">
+                                                    Source</a></li>
+                                        <li><b>Input</b><a class="" href="">
+                                                    Source</a></li>
+                                        <li><b>Input</b><a class="" href="">
+                                                    Source</a></li>
+                                        <li><b>Test it.</b><a class="" href="">
+                                                    Source</a></li>
+                                    </ul>
+                                </div>
+                                <!--End of 'How' -->
+        
+                                <!--Beggining of 'Learn More' -->
+        
+                                <div class="row">
+                                    <div class="column left">
+                                        <hr>
+                                        <h4 class="accordion-subtitle">Learn more</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li>
+                                                List Item
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--End of 'Learn More' -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of 'Resize Text' Section  -->
+
+            </div>
+        </div>
+        <!-- Layout and Hierarchy Accordion ends here -->
+
+
+
+              <!-- Interactions start here 'Section' 4' -->
+              <div id="accordionSection" class="accordion-section">
+                <div id="media" class="accordion-header">
+                    <h2 class="accordian-name"> Interactions and Media</h2>
+                    <image src="img/Media-fill.png" class="principle-icon" alt=""></image>
+                </div>
+                <div id="accordionGroup" class="accordion">
+            
+            
+                    <!-- Start of ' Target Size' -->
+                    <h3>
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect4-1"
+                            id="accordion4-1id">
+                            <span class="accordion-title">
+                                Target Size
+                                <span class="accordion-icon"></span>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="sect4-1" role="region" aria-labelledby="accordion4-1id" class="accordion-panel" hidden="">
+                        <div>
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">What</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Color is not used as the only visual means of conveying
+                                        information, indicating
+                                        an action, prompting a response, or distinguishing a visual element.
+                                    </p>
+                                    <a class="button" href="https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">WCAG
+                                        SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+            
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">Why</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">They why goes here
+                                    </p>
+                                </div>
+                            </div>
+            
+                            <div class="accordion-subsection">
+            
+                                <div class="row">
+            
+                                    <div class="column left">
+                                        <hr>
+            
+                                        <h4 class="accordion-subtitle">How</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li><b>Don’t convey meaning through color alone.</b> Incorporate alternate
+                                                means of communication—use labels, texture, shapes, and patterns—to
+                                                prevent confusion among people with color blindness. <a class=""
+                                                    href="https://www.levelaccess.com/blog/color-blindness-accessibility-what-designers-need-to-know/">
+                                                    Source</a></li>
+                                            <li><b>Avoid using the same color to mean different things.</b> Use color
+                                                consistently throughout your interface, especially when you use it to
+                                                help communicate information like status or interactivity. <a class=""
+                                                    href="https://developer.apple.com/design/human-interface-guidelines/color#Best-practices">
+                                                    Source</a></li>
+                                            <li><b>Avoid certain color combinations.</b> There are certain color
+                                                combinations that especially bad for users who are color blind.
+                                                Red/green color blindness is the most common, so avoid green on red or
+                                                red on green. (Think especially about avoiding using red and green for
+                                                “bad” and “good” indicators).<a class=""
+                                                    href="http://web-accessibility.carnegiemuseums.org/design/color/">
+                                                    Source</a></li>
+                                            <li><b>Use texture and patterns.</b> When you need to emphasize certain
+                                                objects, it’s a good idea to incorporate textures and/or patterns. This
+                                                is especially helpful for charts and graphs where color is often used to
+                                                differentiate between items. Adding textures and patterns like checkers,
+                                                lines, and dots can help make each item stand out as unique and easily
+                                                identifiable. <a class=""
+                                                    href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/">
+                                                    Source</a>
+            
+                                            </li>
+                                            <li><b>Test it.</b> Some users have difficulty perceiving color, testing
+                                                your color combinations by using a tool like <a class="Link"
+                                                    href="https://www.whocanuse.com/?bg=33997c&fg=ffffff&fs=16&fw=">Whocanuse.com</a>
+                                                will help you understand how color contrast can affect people with different
+                                                visual impairments.
+                                            </li>
+                                        </ul>
+                                    </div>
+            
+                                    <div class="row">
+                                        <div class="column left">
+                                            <hr>
+                                            <h4 class="accordion-subtitle">Learn more</h4>
+                                        </div>
+                                        <div class="column right">
+                                            <hr>
+                                            <ul class="accordion-list">
+                                                <li>
+                                                    List Item
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of  Target Size -->
+            
+                    <!-- Start of 'Focus Visible' -->
+                    <h3>
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect5-2"
+                            id="accordion5-2id">
+                            <span class="accordion-title">
+                                Focus Visible
+                                <span class="accordion-icon"></span>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="sect5-2" role="region" aria-labelledby="accordion5-2id" class="accordion-panel" hidden="">
+                        <div>
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">What</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">The visual presentation of text and images of text has a contrast
+                                        ratio of at least 4.5:1, except for the following:
+            
+                                        Large Text
+                                        Large-scale text and images of large-scale text have a contrast ratio of at least
+                                        3:1;
+            
+                                        Incidental
+                                        Text or images of text that are part of an inactive user interface component, that
+                                        are pure decoration, that are not visible to anyone, or that are part of a picture
+                                        that contains significant other visual content, have no contrast requirement.
+            
+                                        Logotypes
+                                        Text that is part of a logo or brand name has no contrast requirement. (Level AA).
+                                    </p>
+                                    <a class="button" href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">WCAG
+                                        SC 1.4.3 <i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+            
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">Why</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">People with low vision often have difficulty reading text that
+                                        does not contrast with its background. This can be exacerbated if the person has a
+                                        color vision deficiency that lowers the contrast even further. Providing a minimum
+                                        luminance contrast ratio between the text and its background can make the text more
+                                        readable even if the person does not see the full range of colors. It also works for
+                                        the rare individuals who see no color. (WCAG, )
+                                    </p>
+                                </div>
+                            </div>
+            
+                            <div class="accordion-subsection">
+            
+                                <div class="row">
+            
+                                    <div class="column left">
+                                        <hr>
+            
+                                        <h4 class="accordion-subtitle">How</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li><b>Aim for a middle ground.</b> The issue with color contrast can be
+                                                complicated
+                                                as some people with cognitive disabilities are sensitive to light and could
+                                                experience eye fatigue or feel distracted when looking at high contrast text
+                                                and
+                                                images, such as black text on a white background at a 21:1 contrast ratio. A
+                                                good middle ground is to aim for a 7:1 contrast ratio, the AAA rating for
+                                                WCAG.
+                                                <a class=""
+                                                    href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
+                                                    Source</a>
+                                            </li>
+                                            <li><b>Use contrast properly.</b> You can make your website’s components stand
+                                                out
+                                                to all users by properly using color contrast in your design. The trick is
+                                                to
+                                                use brightness and tone, in addition to hues. If you contrast by color, but
+                                                maintain the same brightness, elements (might) look blended or muddled to
+                                                those
+                                                with color deficiencies.  <a class=""
+                                                    href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/#:~:text=You%20can%20make%20your%20website%27s,to%20those%20with%20color%20deficiencies.">
+                                                    Source</a></li>
+                                            <li><b>Test it. </b>Use a non-destructive <a
+                                                    href="https://www.figma.com/community/plugin/1105916617805028875/grayscale">FIGMA
+                                                    plugin</a> to convert your designs to grayscale to see if any design
+                                                elements
+                                                become indistiguishable or difficult to read.</li>
+                                        </ul>
+                                    </div>
+            
+                                    <div class="row">
+                                        <div class="column left">
+                                            <hr>
+                                            <h4 class="accordion-subtitle">Learn more</h4>
+                                        </div>
+                                        <div class="column right">
+                                            <hr>
+                                            <ul class="accordion-list">
+                                                <li>
+                                                    List Item
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of 'Focus Visible' -->
+            
+                    <!-- Start of 'Content on Hover or Focus' -->
+                    <h3>
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect4-3"
+                            id="accordion4-3id">
+                            <span class="accordion-title">
+                                Hover or Focus
+                                <span class="accordion-icon"></span>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="sect4-3" role="region" aria-labelledby="accordion4-3id" class="accordion-panel" hidden="">
+                        <div>
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">What</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p"> The visual presentation of the following have a contrast ratio of at
+                                        least 3:1
+                                        against adjacent color(s):
+            
+                                        User Interface Components
+                                        Visual information required to identify user interface components and states, except
+                                        for inactive components or where the appearance of the component is determined by
+                                        the user agent and not modified by the author;
+            
+                                        Graphical Objects
+                                        Parts of graphics required to understand the content, except when a particular
+                                        presentation of graphics is essential to the information being conveyed. (Level AA)
+                                    </p>
+                                    <a class="button" href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">WCAG
+                                        SC 1.4.11 <i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+            
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">Why</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">If a graphic is needed to understand the content or
+                                        functionality of the webpage then it should be perceivable by people with low vision
+                                        or other impairments without the need for contrast-enhancing assistive technology.
+                                        (Source)
+                                    </p>
+                                </div>
+                            </div>
+            
+                            <div class="accordion-subsection">
+            
+                                <div class="row">
+            
+                                    <div class="column left">
+                                        <hr>
+            
+                                        <h4 class="accordion-subtitle">How</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li><b>Title.</b> best practice
+                                                <a class=""
+                                                    href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
+                                                    Source</a>
+                                            </li>
+            
+                                        </ul>
+                                    </div>
+            
+                                    <div class="row">
+                                        <div class="column left">
+                                            <hr>
+                                            <h4 class="accordion-subtitle">Learn more</h4>
+                                        </div>
+                                        <div class="column right">
+                                            <hr>
+                                            <ul class="accordion-list">
+                                                <li>
+                                                    List Item
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of 'Hover' -->
+            
+                    <!-- Start of 'Animation from Interactions' Section -->
+                    <h3>
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect4-4"
+                            id="accordion4-4id">
+                            <span class="accordion-title">
+                                Animation from Interactions
+                                <span class="accordion-icon"></span>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="sect4-4" role="region" aria-labelledby="accordion4-4id" class="accordion-panel" hidden="">
+            
+                        <div>
+                            <!--Beginning of 'What' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">What</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                    <a class="button" href="">WCAG
+                                        SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+                            <!--End of 'What' -->
+            
+                            <!--Beginning of 'Why' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">Why</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                </div>
+                            </div>
+                            <!--End of 'Why' -->
+            
+            
+                            <div class="accordion-subsection">
+                                <!--Beginning of 'How' -->
+                                <div class="row">
+            
+                                    <div class="column left">
+                                        <hr>
+            
+                                        <h4 class="accordion-subtitle">How</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li><b>Input<a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input<a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input<a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input<a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Test it.<a class="" href="">
+                                                        Source</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--End of 'How' -->
+            
+                                    <!--Beggining of 'Learn More' -->
+            
+                                    <div class="row">
+                                        <div class="column left">
+                                            <hr>
+                                            <h4 class="accordion-subtitle">Learn more</h4>
+                                        </div>
+                                        <div class="column right">
+                                            <hr>
+                                            <ul class="accordion-list">
+                                                <li>
+                                                    List Item
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--End of 'Learn More' -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of 'Animation from Interactions' Section -->
+            
+                    <!-- Start of 'Audio Control' Section -->
+                    <h3>
+                        <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect4-5"
+                            id="accordion4-5id">
+                            <span class="accordion-title">
+                                Audio Control
+                                <span class="accordion-icon"></span>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="sect4-5" role="region" aria-labelledby="accordion4-5id" class="accordion-panel" hidden="">
+            
+                        <div>
+                            <!--Beginning of 'What' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">What</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                    <a class="button" href="">WCAG
+                                        SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+                            <!--End of 'What' -->
+            
+                            <!--Beginning of 'Why' -->
+                            <div class="row">
+                                <div class="column left">
+                                    <hr>
+                                    <h4 class="accordion-subtitle">Why</h4>
+                                </div>
+                                <div class="column right">
+                                    <hr>
+                                    <p class="wcag-p">Input
+                                    </p>
+                                </div>
+                            </div>
+                            <!--End of 'Why' -->
+            
+            
+                            <div class="accordion-subsection">
+                                <!--Beginning of 'How' -->
+                                <div class="row">
+            
+                                    <div class="column left">
+                                        <hr>
+            
+                                        <h4 class="accordion-subtitle">How</h4>
+                                    </div>
+                                    <div class="column right">
+                                        <hr>
+                                        <ul class="accordion-list">
+                                            <li><b>Input<a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input<a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input<a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Input<a class="" href="">
+                                                        Source</a></li>
+                                            <li><b>Test it.<a class="" href="">
+                                                        Source</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--End of 'How' -->
+            
+                                    <!--Beggining of 'Learn More' -->
+            
+                                    <div class="row">
+                                        <div class="column left">
+                                            <hr>
+                                            <h4 class="accordion-subtitle">Learn more</h4>
+                                        </div>
+                                        <div class="column right">
+                                            <hr>
+                                            <ul class="accordion-list">
+                                                <li>
+                                                    List Item
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--End of 'Learn More' -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of 'Audio Control' Section -->
+            
+                
+                    <!-- End of Section -->
+                </div>
+            </div>
+        <!--Accordion ends here-->
+
+
+    </section>
+
+
+    <footer>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <p class="small">A project by Lauren Pritchard &copy;2024</p>
+        <!-- <div>
                     <p>Lauren Pritchard</p>
                 </div>
                 <div>
@@ -421,7 +2283,7 @@
                     <p class="small">Masters of Arts in Graphic and Web Design</p>
                     <p class="small">December 2024</p>
                 </div> -->
-        </footer>
+    </footer>
 
 
     </main>
