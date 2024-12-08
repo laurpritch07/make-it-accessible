@@ -93,7 +93,7 @@ html {
   text-decoration: underline;
   transition: all 0.4s;
   position: relative;
-  font-size: .75rem;
+  font-size: 1rem;
   padding: 0.5rem;
   font-weight: 600;
 }
@@ -103,7 +103,6 @@ html {
   text-decoration: underline;
   transition: all 0.4s;
   position: relative;
-  font-size: .75rem;
   padding: 0.5rem;
   font-weight: 600;
 }
