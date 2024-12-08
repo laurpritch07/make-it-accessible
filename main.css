@@ -5,7 +5,7 @@
 
 
 :root {
-  --black: #1a1a1a;
+  --black: #2d2d2d;
   --green: #7bdcb5;
   --yellow: #FFD100;
   --pink: #f78da7;
@@ -276,7 +276,7 @@ p a:focus {
 }
 
 h1 {
-  font-size: calc(100vw / 18);
+  font-size: calc(100vw / 20);
   line-height: 1.25em;
   margin-bottom: 1rem;
 }
@@ -556,7 +556,9 @@ hr {
 
 .accordion-trigger:focus .accordion-title,
 .accordion-trigger:hover .accordion-title {
-  color: var(--blue);}
+  color: var(--blue);
+  text-decoration: var(--blue);
+}
 
 .accordion-trigger:focus-visible .accordion-title {
     outline: .375rem double black;
@@ -769,14 +771,17 @@ hr {
 .navbar a {
   float: left;
   text-align: left;
-padding-bottom: 2rem;
+  padding-top: orem;
+padding-bottom: 1rem;
   color:var(--black);
   text-decoration: none;
   vertical-align: middle;
 }
 
+
 /* Navbar links on mouse-over */
 .navbar a:hover {
+    color: #0077C8;
   text-decoration: underline;
 }
 
@@ -816,9 +821,12 @@ padding-bottom: 2rem;
   }
 }
 
+a {
+    color: var(--blue);
+}
 
 
-ol li a:link {
+/* ol li a:link {
   text-decoration: none;
   text-shadow: 0.05em 0 0 #fff, -0.05em 0 0 #fff,
     0 0.05em 0 #fff, 0 -0.05em 0 #fff,
@@ -867,7 +875,7 @@ li a:active {
   background-position: bottom 0.05em center;
   background-size: 100% 0.05em;
   color: var(--blue);
-}
+} */
 
 /* Strengthen the appearance of focus style for paragraph links across browsers with background color solution. This creates a filled box which is easier to identify as focus moves*/
 li a:focus {
@@ -884,6 +892,7 @@ li a:focus {
 
 /*universal oreo focus*/
 :focus-visible {
-    outline: 9px double black;
-    box-shadow: 0 0 0 6px white;
+    outline: .375rem double black;
+    box-shadow: 0 0 0 .25rem white;
+    border-radius: .125rem;
   }
