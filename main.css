@@ -275,7 +275,7 @@ p a:focus {
 }
 
 h1 {
-  font-size: calc(100vw / 18);
+  font-size: calc(100vw / 22);
   line-height: 1.25em;
   margin-bottom: 1rem;
 }
