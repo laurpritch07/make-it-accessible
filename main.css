@@ -812,6 +812,10 @@ padding-bottom: 1rem;
     display: block;
   }
 
+  .nav__link {
+    font-size: .85rem;
+  }
+
   h1 {
     font-size: calc(100vw / 8);
   }
