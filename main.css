@@ -908,3 +908,12 @@ li a:focus {
     padding-top: 16px;
     padding-bottom: 16px;
   } */
+
+  ul li {
+    line-height: 150%;
+    padding-bottom: .5rem;
+  }
+
+  .list-link {
+    word-wrap: break-word;
+  }
