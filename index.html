@@ -587,7 +587,7 @@
                                                     
                                                     To avoid this problem choose a typeface or font with distinct features on both the top and/or the bottom of the capital ‘I’ and a short but noticeable arm on the top of the number ‘1’. (Williams 2020)
                                                      <a class=""
-                                                        href="https://www.itsnicethat.com/news/fontsmith-typographic-accessibility-guide-051016">
+                                                        href="https://medium.com/the-readability-group/a-guide-to-understanding-what-makes-a-typeface-accessible-and-how-to-make-informed-decisions-9e5c0b9040a0.">
                                                         Source <i
                                                         class='bx bx-link-external'></i></a>
                                                         
@@ -657,7 +657,7 @@
                     <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect2-2"
                         id="accordion2-2id">
                         <span class="accordion-title">
-                            Text Size
+                            Resize Text
                             <span class="accordion-icon"></span>
                         </span>
                     </button>
@@ -667,44 +667,27 @@
                         <div class="row">
                             <div class="column left">
                                 <hr>
-                                <h4 class="accordion-subtitle">What</h4>
+                                <h4 class="accordion-subtitle">WCAG Guideline (Level AA)</h4>
                             </div>
                             <div class="column right">
                                 <hr>
-                                <p class="wcag-p">The visual presentation of text and images of text has a contrast
-                                    ratio of at least 4.5:1, except for the following:
+                                <p class="wcag-p">Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.
 
-                                    Large Text
-                                    Large-scale text and images of large-scale text have a contrast ratio of at least
-                                    3:1;
-
-                                    Incidental
-                                    Text or images of text that are part of an inactive user interface component, that
-                                    are pure decoration, that are not visible to anyone, or that are part of a picture
-                                    that contains significant other visual content, have no contrast requirement.
-
-                                    Logotypes
-                                    Text that is part of a logo or brand name has no contrast requirement. (Level AA).
                                 </p>
                                 <a class="button"
-                                    href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">WCAG
-                                    SC 1.4.3 <i class='bx bx-link-external'></i></a>
+                                    href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">WCAG
+                                    SC 1.4.4 <i class='bx bx-link-external'></i></a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="column left">
                                 <hr>
-                                <h4 class="accordion-subtitle">Why</h4>
+                                <h4 class="accordion-subtitle">Why is desiging for resize important?</h4>
                             </div>
                             <div class="column right">
                                 <hr>
-                                <p class="wcag-p">People with low vision often have difficulty reading text that
-                                    does not contrast with its background. This can be exacerbated if the person has a
-                                    color vision deficiency that lowers the contrast even further. Providing a minimum
-                                    luminance contrast ratio between the text and its background can make the text more
-                                    readable even if the person does not see the full range of colors. It also works for
-                                    the rare individuals who see no color. (WCAG, )
+                                <p class="wcag-p">By designing for text to be resized, people with low vision will be able to easily view content by increasing text size so that they can read content without compromise. 
                                 </p>
                             </div>
                         </div>
@@ -716,38 +699,38 @@
                                 <div class="column left">
                                     <hr>
 
-                                    <h4 class="accordion-subtitle">How</h4>
+                                    <h4 class="accordion-subtitle">How to design for text to resize.</h4>
                                 </div>
                                 <div class="column right">
                                     <hr>
                                     <ul class="accordion-list">
-                                        <li><b>Aim for a middle ground.</b> The issue with color contrast can be
-                                            complicated
-                                            as some people with cognitive disabilities are sensitive to light and could
-                                            experience eye fatigue or feel distracted when looking at high contrast text
-                                            and
-                                            images, such as black text on a white background at a 21:1 contrast ratio. A
-                                            good middle ground is to aim for a 7:1 contrast ratio, the AAA rating for
-                                            WCAG.
-                                            <a class=""
-                                                href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
-                                                Source</a>
+                                        <li><b>Design for reflow.</b> “Design to reflow to a minimum viewport size of 320 CSS pixels wide, and 256 pixels high. At this size, there must be no loss of content or functionality, and scrolling must not be required in more than one direction. (Rallo et al. 53)
+
+
+                                            <a class="source"
+                                                href="https://craft-cms-s3.s3.amazonaws.com/assets/images/resources/RGD_AccessAbility2_Handbook_2021_09_28.pdf">
+                                                Source <i
+                                    class='bx bx-link-external'></i></a>
                                         </li>
-                                        <li><b>Use contrast properly.</b> You can make your website’s components stand
-                                            out
-                                            to all users by properly using color contrast in your design. The trick is
-                                            to
-                                            use brightness and tone, in addition to hues. If you contrast by color, but
-                                            maintain the same brightness, elements (might) look blended or muddled to
-                                            those
-                                            with color deficiencies.  <a class=""
-                                                href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/#:~:text=You%20can%20make%20your%20website%27s,to%20those%20with%20color%20deficiencies.">
-                                                Source</a></li>
-                                        <li><b>Test it. </b>Use a non-destructive <a
-                                                href="https://www.figma.com/community/plugin/1105916617805028875/grayscale">FIGMA
-                                                plugin</a> to convert your designs to grayscale to see if any design
-                                            elements
-                                            become indistiguishable or difficult to read.</li>
+
+                                        <li><b> 80 characters or less. </b> “Use relative measurements to set column widths so that lines can average 80 characters or less when the browser is resized. This makes it possible for users with certain reading or vision disabilities that have trouble keeping their place when reading long lines of text to view and interact with the content more efficiently. (W3C Web Accessibility Initiative (WAI))
+
+                                            <a class="source"
+                                                href="https://www.w3.org/WAI/WCAG21/Techniques/css/C20">
+                                                Source <i
+                                                class='bx bx-link-external'></i></a>
+                                        </li>
+
+                                        <li><b>Make sure your text isn't too small. </b> “The exact dimensions of font sizes can vary depending on the unit used, the size of the viewport (if units are relative), and the pixel density of the device’s screen, but a safe bet would be to use 16px or 1em or 1rem as the smallest size for body type.” (Zaraysky)
+
+                                            <a class="source"
+                                                href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
+                                                Source <i
+                                                class='bx bx-link-external'></i></a>
+                                        </li>
+
+                                        <li><b>Test it. </b>Check to see that line length can be set to 80 characters or less by resizing the browser window.
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -760,8 +743,31 @@
                                         <hr>
                                         <ul class="accordion-list">
                                             <li>
-                                                List Item
+                                                <a class="learn-more"
+                                                    href="https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html">
+                                                    WCAG 2.1 Understanding Resize Text <i
+                                                        class='bx bx-link-external'></i></a>
                                             </li>
+
+                                            <li>
+                                                <a class="learn-more"
+                                                    href="https://www.w3.org/WAI/WCAG21/Techniques/css/C20">
+                                                    WCAG 2.1 Technique C20 <i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+
+                                            <li>
+                                                <a class="learn-more" href="https://craft-cms-s3.s3.amazonaws.com/assets/images/resources/RGD_AccessAbility2_Handbook_2021_09_28.pdf">
+                                                    AccessAbility2_Handbook<i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+
+                                            <li>
+                                                <a class="learn-more" href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
+                                                    Introducing accessibility in typography<i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+                                          
                                         </ul>
                                     </div>
                                 </div>
@@ -776,7 +782,7 @@
                     <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect2-3"
                         id="accordion2-3id">
                         <span class="accordion-title">
-                            Spacing
+                            Text Spacing
                             <span class="accordion-icon"></span>
                         </span>
                     </button>
@@ -786,26 +792,32 @@
                         <div class="row">
                             <div class="column left">
                                 <hr>
-                                <h4 class="accordion-subtitle">What</h4>
+                                <h4 class="accordion-subtitle">WCAG Guideline (Level AA)</h4>
                             </div>
                             <div class="column right">
                                 <hr>
-                                <p class="wcag-p"> The visual presentation of the following have a contrast ratio of at
-                                    least 3:1
-                                    against adjacent color(s):
+                                <p class="wcag-p"> In content implemented using markup languages that support the following text style properties, no loss of content or functionality occurs by setting all of the following and by changing no other style property:
 
-                                    User Interface Components
-                                    Visual information required to identify user interface components and states, except
-                                    for inactive components or where the appearance of the component is determined by
-                                    the user agent and not modified by the author;
+                                    <ul>
+                                        <li>Line height (line spacing) to at least 1.5 times the font size;
+                                        </li>
 
-                                    Graphical Objects
-                                    Parts of graphics required to understand the content, except when a particular
-                                    presentation of graphics is essential to the information being conveyed. (Level AA)
+                                        <li>Spacing following paragraphs to at least 2 times the font size;
+                                        </li>
+
+                                        <li>Letter spacing (tracking) to at least 0.12 times the font size;
+                                        </li>
+
+                                        <li>Word spacing to at least 0.16 times the font size.
+                                        </li>
+
+
+                                    </ul>
+
                                 </p>
                                 <a class="button"
-                                    href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">WCAG
-                                    SC 1.4.11 <i class='bx bx-link-external'></i></a>
+                                    href="https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">WCAG
+                                    SC 1.4.12 <i class='bx bx-link-external'></i></a>
                             </div>
                         </div>
 
@@ -816,11 +828,8 @@
                             </div>
                             <div class="column right">
                                 <hr>
-                                <p class="wcag-p">If a graphic is needed to understand the content or
-                                    functionality of the webpage then it should be perceivable by people with low vision
-                                    or other impairments without the need for contrast-enhancing assistive technology.
-                                    (Source)
-                                </p>
+                                <p class="wcag-p">
+                                    Some people need text with different spacing. Ensure users can adjust text by designing content in a way that adapts to their needs. 
                             </div>
                         </div>
 
@@ -831,16 +840,37 @@
                                 <div class="column left">
                                     <hr>
 
-                                    <h4 class="accordion-subtitle">How</h4>
+                                    <h4 class="accordion-subtitle">How to design for text</h4>
                                 </div>
                                 <div class="column right">
                                     <hr>
                                     <ul class="accordion-list">
-                                        <li><b>Title.</b> best practice
-                                            <a class=""
+                                        <li><b>Use scalable rather than absolute units. </b>"Mobile devices and browsers include features to allow users to adjust their font size system-wide. Be sure to not hard set the line heights when coding text as dynamic and adjustable. Otherwise, a reader may choose a large text size but be unable to read it because the lines of content overlap." (Zaraysky 2024.)
+                                             <a class=""
                                                 href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
-                                                Source</a>
+                                                Source<i class='bx bx-link-external'></i></a>
                                         </li>
+
+                                        <li><b>Maintain clarity in letter and word spacing.</b> “Avoid crowding letters and tightly packed text, which can be tough, especially for users with reading difficulties. Maintain appropriate spacing using CSS properties like ‘letter-spacing’ and ‘word-spacing’ to ensure clarity.” (Lange 2024) 
+                                           
+                                            <a class=""
+                                                href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/#:~:text=You%20can%20make%20your%20website%27s,to%20those%20with%20color%20deficiencies">Source<i class='bx bx-link-external'></i></a>
+
+                                                <li><b>Line Spacing. </b> “Too little leading will overly emphasize word-spacing and in effect reduce readability. Too much leading will give readers difficulty in tracking from one line of text to the next, and may also increase strain on the neck. Aim for a comfortable balance, and if in doubt, err on the side of slightly more leading. (Rallo et al. 29) 
+                                           
+                                                    <a class=""
+                                                        href="https://craft-cms-s3.s3.amazonaws.com/assets/images/resources/RGD_AccessAbility2_Handbook_2021_09_28.pdf">Source<i class='bx bx-link-external'></i></a>
+
+                                                        <li><b>Paragraph spacing. </b> "Increase the amount of space after each paragraph to be noticeably greater than the line spacing. Aim for a minimum of 50% more space  between paragraphs than between lines." (Rallo et al. 29)
+                                                            
+
+                                           
+                                                            <a class=""
+                                                                href="https://craft-cms-s3.s3.amazonaws.com/assets/images/resources/RGD_AccessAbility2_Handbook_2021_09_28.pdf">Source<i class='bx bx-link-external'></i></a>
+
+
+
+                                               
 
                                     </ul>
                                 </div>
@@ -854,8 +884,30 @@
                                         <hr>
                                         <ul class="accordion-list">
                                             <li>
-                                                List Item
+                                                <a class="learn-more"
+                                                    href="https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">
+                                                    WCAG 2.1 Text Spacing (Level AA) <i
+                                                        class='bx bx-link-external'></i></a>
                                             </li>
+
+                                            <li>
+                                                <a class="learn-more" href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
+                                                    Introducing accessibility in typography<i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+
+                                            <li>
+                                                <a class="learn-more" href="https://www.a11y-collective.com/blog/wcag-minimum-font-size/">
+                                                    How to Pick the Perfect Font Size: A Guide to WCAG Accessibility<i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+
+                                            <li>
+                                                <a class="learn-more" href="https://craft-cms-s3.s3.amazonaws.com/assets/images/resources/RGD_AccessAbility2_Handbook_2021_09_28.pdf">
+                                                    Access Ability 2<i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+                                          
                                         </ul>
                                     </div>
                                 </div>
@@ -882,14 +934,14 @@
                         <div class="row">
                             <div class="column left">
                                 <hr>
-                                <h4 class="accordion-subtitle">What</h4>
+                                <h4 class="accordion-subtitle">WCAG Guideline (Level AA)</h4>
                             </div>
                             <div class="column right">
                                 <hr>
-                                <p class="wcag-p">Input
+                                <p class="wcag-p">Headings and labels describe topic or purpose.
                                 </p>
-                                <a class="button" href="">WCAG
-                                    SC 1.4.1 <i class='bx bx-link-external'></i></a>
+                                <a class="button" href="https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels">WCAG
+                                    SC 2.4.6 <i class='bx bx-link-external'></i></a>
                             </div>
                         </div>
                         <!--End of 'What' -->
@@ -898,11 +950,12 @@
                         <div class="row">
                             <div class="column left">
                                 <hr>
-                                <h4 class="accordion-subtitle">Why</h4>
+                                <h4 class="accordion-subtitle">Why are descriptive headings and labels important to accessibility? </h4>
                             </div>
                             <div class="column right">
                                 <hr>
-                                <p class="wcag-p">Input
+                                <p class="wcag-p">"Descriptive headings are especially helpful for users who have disabilities that make reading slow and for people with limited short-term memory. These people benefit when section titles make it possible to predict what each section contains." (W3 2024) <a class=""
+                                    href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html#:~:text=Descriptive%20headings%20are%20especially%20helpful,predict%20what%20each%20section%20contains">Source<i class='bx bx-link-external'></i></a>
                                 </p>
                             </div>
                         </div>
@@ -916,21 +969,29 @@
                                 <div class="column left">
                                     <hr>
 
-                                    <h4 class="accordion-subtitle">How</h4>
+                                    <h4 class="accordion-subtitle">How do I write clear and descriptive headings?</h4>
                                 </div>
                                 <div class="column right">
                                     <hr>
                                     <ul class="accordion-list">
-                                        <li><b>Input</b><a class="" href="">
-                                                Source</a></li>
-                                        <li><b>Input</b><a class="" href="">
-                                                Source</a></li>
-                                        <li><b>Input</b><a class="" href="">
-                                                Source</a></li>
-                                        <li><b>Input</b><a class="" href="">
-                                                Source</a></li>
-                                        <li><b>Test it.</b><a class="" href="">
-                                                Source</a></li>
+                                        <li><b>Make a plan.</b>“It is best to plan out a heading structure before composing a page. Doing so will help you both select appropriate heading levels and keep your thoughts organized overall.” (Yale University 2024)
+                                            <a class="source" href="https://usability.yale.edu/web-accessibility/articles/headings">
+                                                Source<i class='bx bx-link-external'></i></a>
+
+                                        <li><b>Organize the content into sections. </b>"Divide the page into main sections and begin each section with a descriptive heading. Then add subheadings where appropriate. A section may consist of one, two or more paragraphs; however, make sure you don’t add too many subheadings because this may make your content harder to read." (Pearson 2024) <a class="source" href="https://accessibility.pearson.com/guidelines/accessibility-guidance-for-assessment/level-aaa/section-headings/">
+                                            Source<i class='bx bx-link-external'></i></a>
+
+                                        <li><b>Put the most important information first. </b>“Authors may also want to consider putting the most important information at the beginning of each heading. This helps users “skim" the headings to locate the specific content they need, and is especially helpful when browsers or assistive technology allow navigation from heading to heading.” (W3)
+                                            <a class="source" href="https://www.w3.org/TR/WCAG20-TECHS/G130.html">
+                                            Source<i class='bx bx-link-external'></i></a>
+
+                                        <li><b>Make it scannable. </b>“Use short copy and bulleted lists rather than big blocks of text. This is easier for all readers to scan and it improves accessibility for users who depend on screen readers.” (Yale University)
+                                            <a class="source" href="https://usability.yale.edu/web-accessibility/articles/headings">
+                                            Source<i class='bx bx-link-external'></i></a>
+
+                                        <li><b>Test it. </b>Use 
+                                            <a class="source" href="">
+                                            Source<i class='bx bx-link-external'></i>axe for Designers FIGMA plugin</a> to run checks on your design files to ensure headings are appropriately structured.
                                     </ul>
                                 </div>
                                 <!--End of 'How' -->
@@ -946,8 +1007,31 @@
                                         <hr>
                                         <ul class="accordion-list">
                                             <li>
-                                                List Item
+                                                <a class="learn-more"
+                                                    href="https://www.a11yproject.com/posts/how-to-accessible-heading-structure/">
+                                                    How-to: Accessible heading structure
+ <i
+                                                        class='bx bx-link-external'></i></a>
                                             </li>
+
+                                            <li>
+                                                <a class="learn-more" href="https://usability.yale.edu/web-accessibility/articles/headings">
+                                                    Usability & Web Accessibility: Headings<i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+
+                                            <li>
+                                                <a class="learn-more" href="https://www.nngroup.com/articles/applying-writing-guidelines-web-pages/">
+                                                    Applying Writing Guidelines to Web Pages<i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+
+                                            <li>
+                                                <a class="learn-more" href="https://www.figma.com/community/plugin/1085612091163821851/axe-for-designers-a-free-accessibility-plugin">
+                                                    axe for Designers: A Free Accessibility Plugin<i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+                                          
                                         </ul>
                                     </div>
                                 </div>
@@ -1786,98 +1870,7 @@
                 </div>
                 <!-- End of 'Orientation' Section-->
 
-                <!-- Start of 'Resize Text' Section -->
-                <h3>
-                    <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect3-5"
-                        id="accordion3-5id">
-                        <span class="accordion-title">
-                            Resize Text
-                            <span class="accordion-icon"></span>
-                        </span>
-                    </button>
-                </h3>
-                <div id="sect3-5" role="region" aria-labelledby="accordion3-5id" class="accordion-panel" hidden="">
-
-                    <div>
-                        <!--Beginning of 'What' -->
-                        <div class="row">
-                            <div class="column left">
-                                <hr>
-                                <h4 class="accordion-subtitle">What</h4>
-                            </div>
-                            <div class="column right">
-                                <hr>
-                                <p class="wcag-p">Input
-                                </p>
-                                <a class="button" href="">WCAG
-                                    SC 1.4.1 <i class='bx bx-link-external'></i></a>
-                            </div>
-                        </div>
-                        <!--End of 'What' -->
-
-                        <!--Beginning of 'Why' -->
-                        <div class="row">
-                            <div class="column left">
-                                <hr>
-                                <h4 class="accordion-subtitle">Why</h4>
-                            </div>
-                            <div class="column right">
-                                <hr>
-                                <p class="wcag-p">Input
-                                </p>
-                            </div>
-                        </div>
-                        <!--End of 'Why' -->
-
-
-                        <div class="accordion-subsection">
-                            <!--Beginning of 'How' -->
-                            <div class="row">
-
-                                <div class="column left">
-                                    <hr>
-
-                                    <h4 class="accordion-subtitle">How</h4>
-                                </div>
-                                <div class="column right">
-                                    <hr>
-                                    <ul class="accordion-list">
-                                        <li><b>Input</b><a class="" href="">
-                                                Source</a></li>
-                                        <li><b>Input</b><a class="" href="">
-                                                Source</a></li>
-                                        <li><b>Input</b><a class="" href="">
-                                                Source</a></li>
-                                        <li><b>Input</b><a class="" href="">
-                                                Source</a></li>
-                                        <li><b>Test it.</b><a class="" href="">
-                                                Source</a></li>
-                                    </ul>
-                                </div>
-                                <!--End of 'How' -->
-
-                                <!--Beggining of 'Learn More' -->
-
-                                <div class="row">
-                                    <div class="column left">
-                                        <hr>
-                                        <h4 class="accordion-subtitle">Learn more</h4>
-                                    </div>
-                                    <div class="column right">
-                                        <hr>
-                                        <ul class="accordion-list">
-                                            <li>
-                                                List Item
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!--End of 'Learn More' -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of 'Resize Text' Section  -->
+              
 
             </div>
         </div>
