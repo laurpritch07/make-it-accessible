@@ -661,7 +661,7 @@ hr {
 
 .row {
   /* padding-top: 1rem; */
-  padding-bottom: .5rem;
+  padding-bottom: 1rem;
   
 }
 
@@ -925,4 +925,8 @@ li a:focus {
   .reference-title {
 padding-bottom: .5rem;
 margin-bottom: 0;
+  }
+
+a {
+    text-decoration: underline;
   }
