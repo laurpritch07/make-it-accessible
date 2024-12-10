@@ -14,6 +14,7 @@
   --background: #fafafa;
   --neutral-200: #CCCCCC;
   --inactive: #919191;
+  --captopm:  #666;
 }
 
 @media print {
@@ -930,3 +931,8 @@ margin-bottom: 0;
 a {
     text-decoration: underline;
   }
+
+  a:hover {
+text-decoration: none;
+  }
+
