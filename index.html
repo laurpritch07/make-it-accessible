@@ -990,8 +990,8 @@
                                             Source<i class='bx bx-link-external'></i></a>
 
                                         <li><b>Test it. </b>Use 
-                                            <a class="source" href="">
-                                            Source<i class='bx bx-link-external'></i>axe for Designers FIGMA plugin</a> to run checks on your design files to ensure headings are appropriately structured.
+                                            <a class="source" href="https://www.figma.com/community/plugin/1085612091163821851/axe-for-designers-a-free-accessibility-plugin">axe for Designers FIGMA plugin<i class='bx bx-link-external'></i></a> to run checks on your design files to ensure headings are appropriately structured.
+                                            
                                     </ul>
                                 </div>
                                 <!--End of 'How' -->
@@ -1698,40 +1698,26 @@
                         <div class="row">
                             <div class="column left">
                                 <hr>
-                                <h4 class="accordion-subtitle">What</h4>
+                                <h4 class="accordion-subtitle">WCAG Guideline (Level A)</h4>
                             </div>
                             <div class="column right">
                                 <hr>
-                                <p class="wcag-p"> The visual presentation of the following have a contrast ratio of at
-                                    least 3:1
-                                    against adjacent color(s):
-
-                                    User Interface Components
-                                    Visual information required to identify user interface components and states, except
-                                    for inactive components or where the appearance of the component is determined by
-                                    the user agent and not modified by the author;
-
-                                    Graphical Objects
-                                    Parts of graphics required to understand the content, except when a particular
-                                    presentation of graphics is essential to the information being conveyed. (Level AA)
+                                <p class="wcag-p"> When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.
                                 </p>
                                 <a class="button"
-                                    href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">WCAG
-                                    SC 1.4.11 <i class='bx bx-link-external'></i></a>
+                                    href="https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html">WCAG
+                                    SC 1.3.2 <i class='bx bx-link-external'></i></a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="column left">
                                 <hr>
-                                <h4 class="accordion-subtitle">Why</h4>
+                                <h4 class="accordion-subtitle">Why is meaningful sequence important to accessibility?</h4>
                             </div>
                             <div class="column right">
                                 <hr>
-                                <p class="wcag-p">If a graphic is needed to understand the content or
-                                    functionality of the webpage then it should be perceivable by people with low vision
-                                    or other impairments without the need for contrast-enhancing assistive technology.
-                                    (Source)
+                                <p class="wcag-p">If a user is using a screen reader or has css disabled, information can be coded to ensure content is presented to the user in the proper order.
                                 </p>
                             </div>
                         </div>
@@ -1743,15 +1729,28 @@
                                 <div class="column left">
                                     <hr>
 
-                                    <h4 class="accordion-subtitle">How</h4>
+                                    <h4 class="accordion-subtitle">How do I ensure pages have meaningful content order?</h4>
                                 </div>
                                 <div class="column right">
                                     <hr>
                                     <ul class="accordion-list">
-                                        <li><b>Title.</b> best practice
+                                        <li><b>Use a Familiar Hierarchy and Design.</b> “When designing web pages, select standard components that look and behave the way users expect. Use standard conventions for layout such as:home link in the upper left corner, navigation at the top, and search in the upper right.” (W3C Web Accessibility Initiative (WAI))
+
                                             <a class=""
-                                                href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
+                                                href="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o1p02-familiar-design/">
                                                 Source</a>
+
+                                                <li><b>Navigation should be logical and intuitive.</b> “Be careful when changing the visual position of elements on screen using CSS. This can cause the tab order to jump around, seemingly at random, confusing users who rely on the keyboard."  (Nash et al.)
+                                                    <a class=""
+                                                        href="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o1p02-familiar-design/">
+                                                        Source</a>
+                                                </li>
+
+                                                <li><b>Indicate reading order in your design files.</b> If the visual presentation affects the sequencing, remember to communicate the appropriate sequence to development. A plugin like 
+                                                    <a class=""
+                                                        href="https://www.figma.com/community/plugin/731310036968334777/a11y-focus-order">A11y - Focus Order by Microsoft Design
+                                                        <i class='bx bx-link-external'></i></a> can help you annotate the focus/tab order in your designs.
+                                                </li>
                                         </li>
 
                                     </ul>
@@ -1766,8 +1765,27 @@
                                         <hr>
                                         <ul class="accordion-list">
                                             <li>
-                                                List Item
+                                                <a
+                                                    href="https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html">Understanding SC 1.3.2:
+                                                    Meaningful Sequence (Level A) <i
+                                                        class='bx bx-link-external'></i></a>
                                             </li>
+
+                                            <li>
+                                                <a
+                                                    href="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o1p02-familiar-design/">
+                                                    Cognitive Accessibility Design Pattern: Use a Familiar Hierarchy and Design <i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a
+                                                    href="https://web.dev/articles/dom-order-matters">
+                                                    DOM Order Matters | Articles <i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+                                                
+                                            
                                         </ul>
                                     </div>
                                 </div>
