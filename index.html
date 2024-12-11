@@ -2040,44 +2040,26 @@
                         <div class="row">
                             <div class="column left">
                                 <hr>
-                                <h4 class="accordion-subtitle">What</h4>
+                                <h4 class="accordion-subtitle">WCAG Guideline (Level AA) </h4>
                             </div>
                             <div class="column right">
                                 <hr>
-                                <p class="wcag-p">The visual presentation of text and images of text has a contrast
-                                    ratio of at least 4.5:1, except for the following:
-
-                                    Large Text
-                                    Large-scale text and images of large-scale text have a contrast ratio of at least
-                                    3:1;
-
-                                    Incidental
-                                    Text or images of text that are part of an inactive user interface component, that
-                                    are pure decoration, that are not visible to anyone, or that are part of a picture
-                                    that contains significant other visual content, have no contrast requirement.
-
-                                    Logotypes
-                                    Text that is part of a logo or brand name has no contrast requirement. (Level AA).
+                                <p class="wcag-p">Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.
                                 </p>
                                 <a class="button"
-                                    href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">WCAG
-                                    SC 1.4.3 <i class='bx bx-link-external'></i></a>
+                                    href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">WCAG
+                                    SC 2.4.7 <i class='bx bx-link-external'></i></a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="column left">
                                 <hr>
-                                <h4 class="accordion-subtitle">Why</h4>
+                                <h4 class="accordion-subtitle">Why is focus visible important for accessibility? </h4>
                             </div>
                             <div class="column right">
                                 <hr>
-                                <p class="wcag-p">People with low vision often have difficulty reading text that
-                                    does not contrast with its background. This can be exacerbated if the person has a
-                                    color vision deficiency that lowers the contrast even further. Providing a minimum
-                                    luminance contrast ratio between the text and its background can make the text more
-                                    readable even if the person does not see the full range of colors. It also works for
-                                    the rare individuals who see no color. (WCAG, )
+                                <p class="wcag-p">Focus indicators help sighted keyboard users to operate the page. 
                                 </p>
                             </div>
                         </div>
@@ -2089,38 +2071,29 @@
                                 <div class="column left">
                                     <hr>
 
-                                    <h4 class="accordion-subtitle">How</h4>
+                                    <h4 class="accordion-subtitle">How can I design accessible focus indicators?</h4>
                                 </div>
                                 <div class="column right">
                                     <hr>
                                     <ul class="accordion-list">
-                                        <li><b>Aim for a middle ground.</b> The issue with color contrast can be
-                                            complicated
-                                            as some people with cognitive disabilities are sensitive to light and could
-                                            experience eye fatigue or feel distracted when looking at high contrast text
-                                            and
-                                            images, such as black text on a white background at a 21:1 contrast ratio. A
-                                            good middle ground is to aim for a 7:1 contrast ratio, the AAA rating for
-                                            WCAG.
-                                            <a class=""
-                                                href="https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography">
-                                                Source</a>
+                                        <li><b>Make a list of all focusable elements.</b> “Links, buttons, form fields, menu items, things triggered by hover (like tooltips), Widgets (like a calendar picker)” (Pasi)
+                                            <a class="source"
+                                                href="https://www.deque.com/blog/give-site-focus-tips-designing-usable-focus-indicators/">
+                                                Source<i class='bx bx-link-external'></i></a>
                                         </li>
-                                        <li><b>Use contrast properly.</b> You can make your website’s components stand
-                                            out
-                                            to all users by properly using color contrast in your design. The trick is
-                                            to
-                                            use brightness and tone, in addition to hues. If you contrast by color, but
-                                            maintain the same brightness, elements (might) look blended or muddled to
-                                            those
-                                            with color deficiencies.  <a class=""
-                                                href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/#:~:text=You%20can%20make%20your%20website%27s,to%20those%20with%20color%20deficiencies.">
-                                                Source</a></li>
-                                        <li><b>Test it. </b>Use a non-destructive <a
-                                                href="https://www.figma.com/community/plugin/1105916617805028875/grayscale">FIGMA
-                                                plugin</a> to convert your designs to grayscale to see if any design
-                                            elements
-                                            become indistiguishable or difficult to read.</li>
+
+                                        <li><b>Improve but don’t remove.</b> “Browsers implement their own focus styles ranging from dotted outlines to fuzzy blue halos. You can replace these default styles, but you should never just remove them.” (Pickering 61)
+                                        <a class="source"
+                                                href="https://book.inclusive-components.design">
+                                                Source<i class='bx bx-link-external'></i></a></li>
+
+                                                <li><b>When in doubt, use the hover state.</b> “In a lot of cases, a good focus state might be the same as the hover state. If your hover state is obvious, consider using that as a focus indication as well.” (Pasi)
+
+                                                    <a class="source"
+                                                            href="https://www.deque.com/blog/give-site-focus-tips-designing-usable-focus-indicators/">
+                                                            Source<i class='bx bx-link-external'></i></a></li>
+
+                                        <li><b>Test it. </b>Does the focus indicator have sufficient contrast, is it consistent across browsers?</li>
                                     </ul>
                                 </div>
 
@@ -2133,8 +2106,36 @@
                                         <hr>
                                         <ul class="accordion-list">
                                             <li>
-                                                List Item
+                                                <a
+                                                    href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">UWCAG 2.4.7 Understanding Focus Visible (Level AA) <i
+                                                        class='bx bx-link-external'></i></a>
                                             </li>
+
+                                            <li>
+                                                <a
+                                                    href="https://www.deque.com/blog/give-site-focus-tips-designing-usable-focus-indicators/">Give Your Site Some Focus! Tips for Designing Useful and Usable Focus Indicators <i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+
+                                            <li>
+                                                <a
+                                                    href="https://book.inclusive-components.design">Inclusive Components <i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+
+                                            <li>
+                                                <a
+                                                    href="https://www.sarasoueidan.com/blog/focus-indicators/">A guide to designing accessible, WCAG-conformant focus indicators<i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+
+                                            <li>
+                                                <a
+                                                    href="https://www.erikkroes.nl/blog/the-universal-focus-state/">The universal focus state<i
+                                                        class='bx bx-link-external'></i></a>
+                                            </li>
+
+                                            
                                         </ul>
                                     </div>
                                 </div>
