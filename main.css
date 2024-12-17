@@ -95,7 +95,7 @@ html {
   position: relative;
   font-size: 1rem;
   padding: 0.5rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .nav__link:hover  {
@@ -104,7 +104,7 @@ html {
   transition: all 0.4s;
   position: relative;
   padding: 0.5rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 
