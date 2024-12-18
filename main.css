@@ -330,11 +330,7 @@ p {
 
 }
 
-.pull-quote {
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 2rem;
-}
+
 
 /* Buttons */
 .x-large {
@@ -935,3 +931,21 @@ a {
 text-decoration: none;
   }
 
+.blockquote {
+  content: open-quote;
+  font-weight: 600;
+  font-size: 1.75rem;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+  margin-bottom: 0;
+
+}
+
+.blockquote_author {
+  font-weight: 300;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.pull-quote {
+  margin-bottom: 2rem;
+}
