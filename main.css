@@ -932,10 +932,9 @@ text-decoration: none;
   }
 
 .blockquote {
-  content: open-quote;
+
   font-weight: 600;
   font-size: 1.75rem;
-  quotes: "\201C" "\201D" "\2018" "\2019";
   margin-bottom: 0;
 
 }

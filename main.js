@@ -71,3 +71,5 @@ const accordions = document.querySelectorAll('.accordion h3');
 accordions.forEach((accordionEl) => {
   new Accordion(accordionEl);
 });
+
+
